@@ -1,0 +1,20 @@
+/* Minimal animation utilities referenced by legacy components. */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes popIn {
+  from { transform: scale(0.98); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.anim-fade-in {
+  animation: fadeIn 200ms ease-out;
+}
+
+.anim-pop-in {
+  animation: popIn 220ms ease-out;
+}
+

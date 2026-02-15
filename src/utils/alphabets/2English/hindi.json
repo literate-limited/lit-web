@@ -1,0 +1,462 @@
+{
+  "अ": {
+    "letter": "अ",
+    "name": "A",
+    "position": 1,
+    "sounds": [
+      "/ə/"
+    ],
+    "articulation": "central mid vowel",
+    "description": "Represents the default vowel sound in Hindi, used in many words."
+  },
+  "आ": {
+    "letter": "आ",
+    "name": "Ā",
+    "position": 2,
+    "sounds": [
+      "/aː/"
+    ],
+    "articulation": "open back unrounded vowel",
+    "description": "Used to denote a long 'a' sound, similar to 'a' in 'father'."
+  },
+  "इ": {
+    "letter": "इ",
+    "name": "I",
+    "position": 3,
+    "sounds": [
+      "/ɪ/"
+    ],
+    "articulation": "close front unrounded vowel",
+    "description": "Represents a short 'i' sound, similar to 'i' in 'bit'."
+  },
+  "ई": {
+    "letter": "ई",
+    "name": "Ī",
+    "position": 4,
+    "sounds": [
+      "/iː/"
+    ],
+    "articulation": "close front unrounded vowel",
+    "description": "Denotes a long 'ee' sound, like 'ee' in 'see'."
+  },
+  "उ": {
+    "letter": "उ",
+    "name": "U",
+    "position": 5,
+    "sounds": [
+      "/ʊ/"
+    ],
+    "articulation": "close back rounded vowel",
+    "description": "Represents a short 'u' sound, similar to 'u' in 'put'."
+  },
+  "ऊ": {
+    "letter": "ऊ",
+    "name": "Ū",
+    "position": 6,
+    "sounds": [
+      "/uː/"
+    ],
+    "articulation": "close back rounded vowel",
+    "description": "Used for a long 'oo' sound, like 'oo' in 'boot'."
+  },
+  "ए": {
+    "letter": "ए",
+    "name": "E",
+    "position": 7,
+    "sounds": [
+      "/eː/"
+    ],
+    "articulation": "close-mid front unrounded vowel",
+    "description": "Represents an 'e' sound, similar to 'e' in 'they'."
+  },
+  "ऐ": {
+    "letter": "ऐ",
+    "name": "Ai",
+    "position": 8,
+    "sounds": [
+      "/ɛː/"
+    ],
+    "articulation": "open-mid front unrounded vowel",
+    "description": "Denotes the 'ai' sound, like 'ai' in 'fair'."
+  },
+  "ओ": {
+    "letter": "ओ",
+    "name": "O",
+    "position": 9,
+    "sounds": [
+      "/oː/"
+    ],
+    "articulation": "close-mid back rounded vowel",
+    "description": "Represents an 'o' sound, similar to 'o' in 'go'."
+  },
+  "औ": {
+    "letter": "औ",
+    "name": "Au",
+    "position": 10,
+    "sounds": [
+      "/ɔː/"
+    ],
+    "articulation": "open-mid back rounded vowel",
+    "description": "Used for the 'au' sound, like 'ow' in 'how'."
+  },
+  "क": {
+    "letter": "क",
+    "name": "Ka",
+    "position": 11,
+    "sounds": [
+      "/k/"
+    ],
+    "articulation": "voiceless velar stop",
+    "description": "Represents the 'k' sound, similar to 'k' in 'kite'."
+  },
+  "ख": {
+    "letter": "ख",
+    "name": "Kha",
+    "position": 12,
+    "sounds": [
+      "/kʰ/"
+    ],
+    "articulation": "aspirated voiceless velar stop",
+    "description": "An aspirated 'k' sound, like 'kh' in 'blockhead'."
+  },
+  "ग": {
+    "letter": "ग",
+    "name": "Ga",
+    "position": 13,
+    "sounds": [
+      "/ɡ/"
+    ],
+    "articulation": "voiced velar stop",
+    "description": "Represents the 'g' sound, similar to 'g' in 'go'."
+  },
+  "घ": {
+    "letter": "घ",
+    "name": "Gha",
+    "position": 14,
+    "sounds": [
+      "/ɡʱ/"
+    ],
+    "articulation": "aspirated voiced velar stop",
+    "description": "An aspirated 'g' sound, with a breathy voice."
+  },
+  "ङ": {
+    "letter": "ङ",
+    "name": "Nga",
+    "position": 15,
+    "sounds": [
+      "/ŋ/"
+    ],
+    "articulation": "voiced velar nasal",
+    "description": "Represents the 'ng' sound, as in 'sing'."
+  },
+  "च": {
+    "letter": "च",
+    "name": "Ca",
+    "position": 16,
+    "sounds": [
+      "/tʃ/"
+    ],
+    "articulation": "voiceless postalveolar affricate",
+    "description": "Represents the 'ch' sound, similar to 'ch' in 'church'."
+  },
+  "छ": {
+    "letter": "छ",
+    "name": "Cha",
+    "position": 17,
+    "sounds": [
+      "/tʃʰ/"
+    ],
+    "articulation": "aspirated voiceless postalveolar affricate",
+    "description": "An aspirated 'ch' sound, with a breathy release."
+  },
+  "ज": {
+    "letter": "ज",
+    "name": "Ja",
+    "position": 18,
+    "sounds": [
+      "/dʒ/"
+    ],
+    "articulation": "voiced postalveolar affricate",
+    "description": "Represents the 'j' sound, similar to 'j' in 'jam'."
+  },
+  "झ": {
+    "letter": "झ",
+    "name": "Jha",
+    "position": 19,
+    "sounds": [
+      "/dʒʱ/"
+    ],
+    "articulation": "aspirated voiced postalveolar affricate",
+    "description": "An aspirated 'j' sound, with a breathy voice."
+  },
+  "ञ": {
+    "letter": "ञ",
+    "name": "Nya",
+    "position": 20,
+    "sounds": [
+      "/ɲ/"
+    ],
+    "articulation": "voiced palatal nasal",
+    "description": "Represents the 'ny' sound, similar to 'ny' in 'canyon'."
+  },
+  "ट": {
+    "letter": "ट",
+    "name": "Ta",
+    "position": 21,
+    "sounds": [
+      "/ʈ/"
+    ],
+    "articulation": "voiceless retroflex stop",
+    "description": "Represents a retroflex 't' sound, unique to Indian languages."
+  },
+  "ठ": {
+    "letter": "ठ",
+    "name": "Tha",
+    "position": 22,
+    "sounds": [
+      "/ʈʰ/"
+    ],
+    "articulation": "aspirated voiceless retroflex stop",
+    "description": "An aspirated retroflex 't' sound, with a breathy release."
+  },
+  "ड": {
+    "letter": "ड",
+    "name": "Da",
+    "position": 23,
+    "sounds": [
+      "/ɖ/"
+    ],
+    "articulation": "voiced retroflex stop",
+    "description": "Represents a retroflex 'd' sound, unique to Indian languages."
+  },
+  "ढ": {
+    "letter": "ढ",
+    "name": "Dha",
+    "position": 24,
+    "sounds": [
+      "/ɖʱ/"
+    ],
+    "articulation": "aspirated voiced retroflex stop",
+    "description": "An aspirated retroflex 'd' sound, with a breathy voice."
+  },
+  "ण": {
+    "letter": "ण",
+    "name": "Na",
+    "position": 25,
+    "sounds": [
+      "/ɳ/"
+    ],
+    "articulation": "voiced retroflex nasal",
+    "description": "Represents a retroflex 'n' sound, unique to Indian languages."
+  },
+  "त": {
+    "letter": "त",
+    "name": "Ta",
+    "position": 26,
+    "sounds": [
+      "/t̪/"
+    ],
+    "articulation": "voiceless dental stop",
+    "description": "Represents a dental 't' sound, articulated with the tongue at the teeth."
+  },
+  "थ": {
+    "letter": "थ",
+    "name": "Tha",
+    "position": 27,
+    "sounds": [
+      "/t̪ʰ/"
+    ],
+    "articulation": "aspirated voiceless dental stop",
+    "description": "An aspirated dental 't' sound, with a breathy release."
+  },
+  "द": {
+    "letter": "द",
+    "name": "Da",
+    "position": 28,
+    "sounds": [
+      "/d̪/"
+    ],
+    "articulation": "voiced dental stop",
+    "description": "Represents a dental 'd' sound, articulated with the tongue at the teeth."
+  },
+  "ध": {
+    "letter": "ध",
+    "name": "Dha",
+    "position": 29,
+    "sounds": [
+      "/d̪ʱ/"
+    ],
+    "articulation": "aspirated voiced dental stop",
+    "description": "An aspirated dental 'd' sound, with a breathy voice."
+  },
+  "न": {
+    "letter": "न",
+    "name": "Na",
+    "position": 30,
+    "sounds": [
+      "/n/"
+    ],
+    "articulation": "voiced alveolar nasal",
+    "description": "Represents the 'n' sound, similar to 'n' in 'net'."
+  },
+  "प": {
+    "letter": "प",
+    "name": "Pa",
+    "position": 31,
+    "sounds": [
+      "/p/"
+    ],
+    "articulation": "voiceless bilabial stop",
+    "description": "Represents the 'p' sound, similar to 'p' in 'pat'."
+  },
+  "फ": {
+    "letter": "फ",
+    "name": "Pha",
+    "position": 32,
+    "sounds": [
+      "/pʰ/"
+    ],
+    "articulation": "aspirated voiceless bilabial stop",
+    "description": "An aspirated 'p' sound, with a breathy release."
+  },
+  "ब": {
+    "letter": "ब",
+    "name": "Ba",
+    "position": 33,
+    "sounds": [
+      "/b/"
+    ],
+    "articulation": "voiced bilabial stop",
+    "description": "Represents the 'b' sound, similar to 'b' in 'bat'."
+  },
+  "भ": {
+    "letter": "भ",
+    "name": "Bha",
+    "position": 34,
+    "sounds": [
+      "/bʱ/"
+    ],
+    "articulation": "aspirated voiced bilabial stop",
+    "description": "An aspirated 'b' sound, with a breathy voice."
+  },
+  "म": {
+    "letter": "म",
+    "name": "Ma",
+    "position": 35,
+    "sounds": [
+      "/m/"
+    ],
+    "articulation": "voiced bilabial nasal",
+    "description": "Represents the 'm' sound, similar to 'm' in 'man'."
+  },
+  "य": {
+    "letter": "य",
+    "name": "Ya",
+    "position": 36,
+    "sounds": [
+      "/j/"
+    ],
+    "articulation": "voiced palatal approximant",
+    "description": "Represents the 'y' sound, similar to 'y' in 'yes'."
+  },
+  "र": {
+    "letter": "र",
+    "name": "Ra",
+    "position": 37,
+    "sounds": [
+      "/r/"
+    ],
+    "articulation": "voiced alveolar flap",
+    "description": "Represents a flapped 'r' sound, similar to Spanish 'r'."
+  },
+  "ल": {
+    "letter": "ल",
+    "name": "La",
+    "position": 38,
+    "sounds": [
+      "/l/"
+    ],
+    "articulation": "voiced alveolar lateral approximant",
+    "description": "Represents the 'l' sound, similar to 'l' in 'lamp'."
+  },
+  "व": {
+    "letter": "व",
+    "name": "Va",
+    "position": 39,
+    "sounds": [
+      "/ʋ/"
+    ],
+    "articulation": "voiced labiodental approximant",
+    "description": "Represents a sound between 'v' and 'w', unique to Hindi."
+  },
+  "श": {
+    "letter": "श",
+    "name": "Sha",
+    "position": 40,
+    "sounds": [
+      "/ʃ/"
+    ],
+    "articulation": "voiceless postalveolar fricative",
+    "description": "Represents the 'sh' sound, similar to 'sh' in 'shoe'."
+  },
+  "ष": {
+    "letter": "ष",
+    "name": "Ṣa",
+    "position": 41,
+    "sounds": [
+      "/ʂ/"
+    ],
+    "articulation": "voiceless retroflex fricative",
+    "description": "Represents a retroflex 'sh' sound, unique to Indian languages."
+  },
+  "स": {
+    "letter": "स",
+    "name": "Sa",
+    "position": 42,
+    "sounds": [
+      "/s/"
+    ],
+    "articulation": "voiceless alveolar fricative",
+    "description": "Represents the 's' sound, similar to 's' in 'sun'."
+  },
+  "ह": {
+    "letter": "ह",
+    "name": "Ha",
+    "position": 43,
+    "sounds": [
+      "/ɦ/"
+    ],
+    "articulation": "voiced glottal fricative",
+    "description": "Represents the 'h' sound, similar to 'h' in 'hat'."
+  },
+  "क्ष": {
+    "letter": "क्ष",
+    "name": "Kṣa",
+    "position": 44,
+    "sounds": [
+      "/kʂ/"
+    ],
+    "articulation": "voiceless velar-retroflex affricate",
+    "description": "Represents a complex 'ksh' sound, unique to Sanskrit and Hindi."
+  },
+  "त्र": {
+    "letter": "त्र",
+    "name": "Tra",
+    "position": 45,
+    "sounds": [
+      "/t̪r/"
+    ],
+    "articulation": "voiceless dental-alveolar cluster",
+    "description": "Represents a 'tr' cluster, used in many Hindi words."
+  },
+  "ज्ञ": {
+    "letter": "ज्ञ",
+    "name": "Gya",
+    "position": 46,
+    "sounds": [
+      "/ɡj/"
+    ],
+    "articulation": "voiced palatal-velar cluster",
+    "description": "Represents a 'gy' cluster, used in Sanskrit-derived words."
+  }
+}

@@ -1,0 +1,286 @@
+/**
+ * DevInspector Styles
+ *
+ * Overlay for component inspection in dev mode
+ */
+
+.dev-inspector-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* Hover Highlight */
+.inspector-highlight {
+  position: fixed;
+  pointer-events: none;
+  border: 2px solid #3b82f6;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 4px;
+  transition: all 0.1s ease;
+}
+
+.highlight-label {
+  position: absolute;
+  top: -24px;
+  left: -2px;
+  padding: 2px 8px;
+  background: #3b82f6;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "SF Mono", Monaco, monospace;
+  border-radius: 4px 4px 0 0;
+  white-space: nowrap;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Instructions Tooltip */
+.inspector-tooltip {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 16px;
+  background: rgba(0, 0, 0, 0.85);
+  color: #e5e5e5;
+  font-size: 13px;
+  font-family: system-ui, -apple-system, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  animation: tooltip-fade-in 0.3s ease;
+}
+
+@keyframes tooltip-fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.tooltip-key {
+  display: inline-block;
+  padding: 2px 6px;
+  margin-right: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+/* Feedback Panel */
+.feedback-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  max-width: calc(100vw - 40px);
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 140, 0, 0.3);
+  border-radius: 16px;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(255, 100, 0, 0.1);
+
+  pointer-events: all;
+  font-family: system-ui, -apple-system, sans-serif;
+  animation: panel-appear 0.2s ease;
+}
+
+@keyframes panel-appear {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.feedback-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feedback-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.component-icon {
+  font-size: 20px;
+}
+
+.component-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f59e0b;
+}
+
+.feedback-close {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #9ca3af;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.feedback-close:hover {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.feedback-path {
+  padding: 10px 20px;
+  font-family: "SF Mono", Monaco, monospace;
+  font-size: 11px;
+  color: #6b7280;
+  background: rgba(0, 0, 0, 0.2);
+  word-break: break-all;
+}
+
+/* Existing Feedback */
+.existing-feedback {
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.existing-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.feedback-item {
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border-left: 3px solid #3b82f6;
+}
+
+.feedback-text {
+  font-size: 13px;
+  color: #e5e5e5;
+  line-height: 1.5;
+}
+
+.feedback-meta {
+  font-size: 11px;
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+/* New Feedback Input */
+.feedback-input-area {
+  padding: 16px 20px;
+}
+
+.feedback-textarea {
+  width: 100%;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: #e5e5e5;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 80px;
+  transition: all 0.15s ease;
+}
+
+.feedback-textarea:focus {
+  outline: none;
+  border-color: rgba(255, 140, 0, 0.5);
+  box-shadow: 0 0 0 3px rgba(255, 140, 0, 0.1);
+}
+
+.feedback-textarea::placeholder {
+  color: #4b5563;
+}
+
+.feedback-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.feedback-submit {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.feedback-submit:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+.feedback-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Props Preview */
+.props-preview {
+  padding: 16px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.props-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.props-code {
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  font-family: "SF Mono", Monaco, monospace;
+  font-size: 11px;
+  color: #9ca3af;
+  overflow-x: auto;
+  max-height: 150px;
+  overflow-y: auto;
+}

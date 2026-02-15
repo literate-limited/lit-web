@@ -1,0 +1,267 @@
+.sign-translator {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.translator-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.translator-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.translator-header p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.translator-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 968px) {
+  .translator-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Input Section */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.text-input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  resize: vertical;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.text-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.text-input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.translate-btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.translate-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.translate-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.error-message {
+  padding: 1rem;
+  background-color: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  color: #856404;
+  font-size: 0.9rem;
+}
+
+/* Avatar Section */
+.avatar-section {
+  position: relative;
+}
+
+.avatar-canvas-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.avatar-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.playback-status {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.playback-status strong {
+  font-size: 1.1rem;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+/* Translation Results */
+.translation-results {
+  grid-column: 1 / -1;
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.result-section {
+  margin-bottom: 1.5rem;
+}
+
+.result-section h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.original-text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.gloss-sequence {
+  font-family: 'Courier New', monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #4CAF50;
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  letter-spacing: 0.05em;
+}
+
+.grammar-notes {
+  list-style: none;
+  padding: 0;
+}
+
+.grammar-notes li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #666;
+}
+
+.grammar-notes li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #4CAF50;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.sign-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.sign-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.sign-item.found {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.sign-item.missing {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.sign-gloss {
+  font-weight: 600;
+}
+
+.sign-status {
+  font-size: 0.8rem;
+}
+
+.replay-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4CAF50;
+  background: white;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.replay-btn:hover:not(:disabled) {
+  background: #4CAF50;
+  color: white;
+}
+
+.replay-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.translate-btn:disabled {
+  animation: pulse 1.5s ease-in-out infinite;
+}

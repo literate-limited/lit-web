@@ -1,0 +1,34 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ttv-bg" x1="32" y1="16" x2="224" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1325"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="ttv-accent" x1="72" y1="68" x2="204" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="ttv-glow" x="48" y="56" width="176" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#22D3EE" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect x="12" y="12" width="232" height="232" rx="48" fill="url(#ttv-bg)"/>
+  <rect x="22" y="22" width="212" height="212" rx="42" stroke="#1F2A44" stroke-width="4"/>
+
+  <!-- Teleprompter glass -->
+  <g filter="url(#ttv-glow)">
+    <rect x="60" y="76" width="140" height="108" rx="18" fill="rgba(255,255,255,0.04)" stroke="url(#ttv-accent)" stroke-width="6"/>
+    <path d="M72 98H182" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M72 120H162" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M72 142H152" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
+    <path d="M72 164H136" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Play triangle -->
+  <path d="M170 132L120 102V162L170 132Z" fill="url(#ttv-accent)"/>
+
+  <!-- Recording dot -->
+  <circle cx="88" cy="66" r="10" fill="#F59E0B"/>
+
+</svg>

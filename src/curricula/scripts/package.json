@@ -1,0 +1,26 @@
+{
+  "name": "curricula-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scripts for populating language curriculum questions",
+  "scripts": {
+    "migrate": "node add_language_fields.js",
+    "topics": "node populate_topics.js",
+    "test": "node test_generation.js",
+    "generate": "node generate_questions.js",
+    "validate": "node validate_questions.js",
+    "stats": "node show_stats.js",
+    "full": "node populate_database.js",
+    "spanish:add": "node add_spanish_curriculum.js",
+    "spanish:topics": "node populate_spanish_topics.js",
+    "spanish:test": "node test_generation.js",
+    "spanish:generate": "node generate_spanish_questions.js",
+    "spanish:full": "npm run spanish:add && npm run spanish:topics && npm run spanish:generate && npm run validate"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "openai": "^4.77.0",
+    "uuid": "^11.0.4",
+    "xml2js": "^0.6.2"
+  }
+}

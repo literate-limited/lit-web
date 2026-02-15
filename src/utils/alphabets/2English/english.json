@@ -1,0 +1,158 @@
+{
+  "a": {
+    "letter": "A",
+    "position": 1,
+    "sounds": ["/æ/", "/eɪ/", "/ɑː/", "/ə/"],
+    "articulation": "front or open vowel (varies by context)"
+  },
+  "b": {
+    "letter": "B",
+    "position": 2,
+    "sounds": ["/b/"],
+    "articulation": "voiced bilabial stop"
+  },
+  "c": {
+    "letter": "C",
+    "position": 3,
+    "sounds": ["/k/", "/s/"],
+    "articulation": "voiceless velar stop or voiceless alveolar fricative"
+  },
+  "d": {
+    "letter": "D",
+    "position": 4,
+    "sounds": ["/d/"],
+    "articulation": "voiced alveolar stop"
+  },
+  "e": {
+    "letter": "E",
+    "position": 5,
+    "sounds": ["/ɛ/", "/iː/", "/ə/"],
+    "articulation": "front or mid vowel (varies by context)"
+  },
+  "f": {
+    "letter": "F",
+    "position": 6,
+    "sounds": ["/f/"],
+    "articulation": "voiceless labiodental fricative"
+  },
+  "g": {
+    "letter": "G",
+    "position": 7,
+    "sounds": ["/ɡ/", "/dʒ/"],
+    "articulation": "voiced velar stop or voiced postalveolar affricate"
+  },
+  "h": {
+    "letter": "H",
+    "position": 8,
+    "sounds": ["/h/"],
+    "articulation": "voiceless glottal fricative"
+  },
+  "i": {
+    "letter": "I",
+    "position": 9,
+    "sounds": ["/ɪ/", "/aɪ/", "/iː/", "/ə/"],
+    "articulation": "front vowel or diphthong (varies by context)"
+  },
+  "j": {
+    "letter": "J",
+    "position": 10,
+    "sounds": ["/dʒ/"],
+    "articulation": "voiced postalveolar affricate"
+  },
+  "k": {
+    "letter": "K",
+    "position": 11,
+    "sounds": ["/k/"],
+    "articulation": "voiceless velar stop"
+  },
+  "l": {
+    "letter": "L",
+    "position": 12,
+    "sounds": ["/l/"],
+    "articulation": "voiced alveolar lateral approximant"
+  },
+  "m": {
+    "letter": "M",
+    "position": 13,
+    "sounds": ["/m/"],
+    "articulation": "voiced bilabial nasal"
+  },
+  "n": {
+    "letter": "N",
+    "position": 14,
+    "sounds": ["/n/", "/ŋ/"],
+    "articulation": "voiced alveolar or velar nasal"
+  },
+  "o": {
+    "letter": "O",
+    "position": 15,
+    "sounds": ["/ɒ/", "/oʊ/", "/uː/", "/ə/"],
+    "articulation": "back or mid vowel (varies by context)"
+  },
+  "p": {
+    "letter": "P",
+    "position": 16,
+    "sounds": ["/p/"],
+    "articulation": "voiceless bilabial stop"
+  },
+  "q": {
+    "letter": "Q",
+    "position": 17,
+    "sounds": ["/kw/"],
+    "articulation": "voiceless velar stop with labial glide"
+  },
+  "r": {
+    "letter": "R",
+    "position": 18,
+    "sounds": ["/ɹ/"],
+    "articulation": "voiced postalveolar approximant (rhotic)"
+  },
+  "s": {
+    "letter": "S",
+    "position": 19,
+    "sounds": ["/s/", "/z/", "/ʃ/"],
+    "articulation": "voiceless or voiced alveolar fricative; voiceless postalveolar fricative"
+  },
+  "t": {
+    "letter": "T",
+    "position": 20,
+    "sounds": ["/t/", "/ɾ/"],
+    "articulation": "voiceless alveolar stop; alveolar tap in American flapping"
+  },
+  "u": {
+    "letter": "U",
+    "position": 21,
+    "sounds": ["/ʌ/", "/juː/", "/uː/"],
+    "articulation": "back or central vowel; y-glide diphthong"
+  },
+  "v": {
+    "letter": "V",
+    "position": 22,
+    "sounds": ["/v/"],
+    "articulation": "voiced labiodental fricative"
+  },
+  "w": {
+    "letter": "W",
+    "position": 23,
+    "sounds": ["/w/"],
+    "articulation": "voiced labio-velar approximant"
+  },
+  "x": {
+    "letter": "X",
+    "position": 24,
+    "sounds": ["/ks/", "/ɡz/", "/z/"],
+    "articulation": "consonant cluster /k+s/ or voiced variant; /z/ word-initial"
+  },
+  "y": {
+    "letter": "Y",
+    "position": 25,
+    "sounds": ["/j/", "/aɪ/", "/ɪ/", "/iː/"],
+    "articulation": "velar glide"
+  },
+  "z": {
+    "letter": "Z",
+    "position": 26,
+    "sounds": ["/z/", "/s/"],
+    "articulation": "voiced alveolar fricative"
+  }
+}

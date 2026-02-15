@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ttv-mark-bg" x1="12" y1="6" x2="120" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1325"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="ttv-mark-accent" x1="32" y1="20" x2="116" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#ttv-mark-bg)" stroke="#1F2A44" stroke-width="4"/>
+  <path d="M82 64L50 44V84L82 64Z" fill="url(#ttv-mark-accent)" />
+  <circle cx="44" cy="36" r="6" fill="#F59E0B"/>
+  <text x="50%" y="104" text-anchor="middle" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" font-size="24" letter-spacing="1.5">
+    TTV
+  </text>
+</svg>

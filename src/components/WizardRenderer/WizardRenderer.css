@@ -1,0 +1,251 @@
+/* Dialog styling */
+.wizard-dialog {
+  position: relative;
+  z-index: 50;
+}
+
+.wizard-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.wizard-dialog-container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.wizard-dialog-content {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  pointer-events: auto;
+}
+
+/* Wizard container */
+.wizard-container {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Progress bar */
+.wizard-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background-color: #e5e7eb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(to right, #3b82f6, #1d4ed8);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-size: 12px;
+  color: #6b7280;
+  text-align: right;
+  font-weight: 500;
+}
+
+/* Content area */
+.wizard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.wizard-content h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.wizard-description {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Error message */
+.wizard-error {
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #991b1b;
+}
+
+.wizard-loading {
+  padding: 32px;
+  text-align: center;
+  color: #6b7280;
+}
+
+/* Input fields */
+.step-input,
+.step-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.step-input:focus,
+.step-select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Checkbox group */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #3b82f6;
+}
+
+/* Info card */
+.info-card {
+  background-color: #f3f4f6;
+  border-radius: 6px;
+  padding: 16px;
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.6;
+}
+
+/* Footer and buttons */
+.wizard-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.wizard-nav-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.wizard-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: #2563eb;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.btn-primary:disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background-color: #d1d5db;
+}
+
+.btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Error state */
+.error {
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 16px;
+  color: #991b1b;
+  font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .wizard-dialog-content {
+    width: 95%;
+    max-height: 95vh;
+  }
+
+  .wizard-container {
+    padding: 20px;
+    gap: 16px;
+  }
+
+  .wizard-content h2 {
+    font-size: 18px;
+  }
+
+  .wizard-footer {
+    flex-direction: column;
+  }
+
+  .wizard-nav-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .wizard-btn {
+    width: 100%;
+  }
+}

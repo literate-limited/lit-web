@@ -1,0 +1,114 @@
+/**
+ * Interactive Terminal Styles
+ */
+
+.interactive-terminal-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.terminal-connection-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background: rgba(248, 250, 252, 0.9);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.status-indicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.status-indicator.status-connecting {
+  background: #f59e0b;
+  animation: pulse-orange 2s ease-in-out infinite;
+}
+
+.status-indicator.status-connected {
+  background: #059669;
+}
+
+.status-indicator.status-disconnected {
+  background: #64748b;
+}
+
+.status-indicator.status-error {
+  background: #dc2626;
+}
+
+@keyframes pulse-orange {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.status-text {
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.interactive-terminal {
+  flex: 1;
+  padding: 8px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+/* Override xterm.js defaults for our theme */
+.interactive-terminal .xterm {
+  height: 100%;
+  padding: 0;
+}
+
+.interactive-terminal .xterm-viewport {
+  overflow-y: auto !important;
+}
+
+.interactive-terminal .xterm-viewport::-webkit-scrollbar {
+  width: 6px;
+}
+
+.interactive-terminal .xterm-viewport::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.05);
+  border-radius: 3px;
+}
+
+.interactive-terminal .xterm-viewport::-webkit-scrollbar-thumb {
+  background: rgba(15, 118, 110, 0.3);
+  border-radius: 3px;
+}
+
+.interactive-terminal .xterm-viewport::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 118, 110, 0.5);
+}
+
+.interactive-terminal .xterm-screen {
+  padding: 4px;
+}
+
+/* Selection styling */
+.interactive-terminal .xterm .xterm-selection div {
+  background-color: rgba(15, 118, 110, 0.3) !important;
+}
+
+/* Cursor */
+.interactive-terminal .xterm-cursor-layer .xterm-cursor {
+  background-color: #0f766e !important;
+}
+
+.interactive-terminal .xterm.focus .xterm-cursor-layer .xterm-cursor.xterm-cursor-blink {
+  animation: blink-cursor 1s step-end infinite;
+}
+
+@keyframes blink-cursor {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}

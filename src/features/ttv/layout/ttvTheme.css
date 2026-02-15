@@ -1,0 +1,414 @@
+/**
+ * TeleprompTV Theme
+ *
+ * Custom styles for TTV brand.
+ * Dark theme with green accents.
+ */
+
+/* Layout */
+.ttv-layout {
+  min-height: 100vh;
+  background: #0F172A;
+  color: #F1F5F9;
+}
+
+/* Header */
+.ttv-header {
+  height: 64px;
+  background: #1E293B;
+  border-bottom: 1px solid #334155;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.ttv-header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ttv-header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ttv-menu-toggle {
+  background: transparent;
+  border: none;
+  color: #F1F5F9;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.ttv-menu-toggle:hover {
+  background: #334155;
+}
+
+.ttv-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #F1F5F9;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ttv-logo-icon {
+  font-size: 28px;
+}
+
+.ttv-credit-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #10B981;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ttv-user-menu {
+  background: #334155;
+  border: none;
+  color: #F1F5F9;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.ttv-user-menu:hover {
+  background: #475569;
+}
+
+/* Content Wrapper */
+.ttv-content-wrapper {
+  display: flex;
+  height: calc(100vh - 64px);
+}
+
+/* Sidebar */
+.ttv-sidebar {
+  background: #1E293B;
+  border-right: 1px solid #334155;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+.ttv-sidebar.open {
+  width: 240px;
+}
+
+.ttv-sidebar.closed {
+  width: 72px;
+}
+
+.ttv-nav {
+  padding: 16px 0;
+}
+
+.ttv-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  color: #94A3B8;
+  text-decoration: none;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.ttv-nav-item:hover {
+  background: #334155;
+  color: #F1F5F9;
+}
+
+.ttv-nav-item.active {
+  background: #10B981;
+  color: white;
+  border-left: 4px solid #059669;
+}
+
+.ttv-nav-icon {
+  font-size: 20px;
+  width: 24px;
+  text-align: center;
+}
+
+/* Main Content */
+.ttv-main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+  transition: margin-left 0.3s ease;
+}
+
+/* Page Container */
+.ttv-page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.ttv-page-header {
+  margin-bottom: 32px;
+}
+
+.ttv-page-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #F1F5F9;
+}
+
+.ttv-page-subtitle {
+  font-size: 16px;
+  color: #94A3B8;
+  margin: 0;
+}
+
+/* Cards */
+.ttv-card {
+  background: #1E293B;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.ttv-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 16px;
+  color: #F1F5F9;
+}
+
+/* Buttons */
+.ttv-button {
+  background: #10B981;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.ttv-button:hover {
+  background: #059669;
+}
+
+.ttv-button:disabled {
+  background: #334155;
+  color: #64748B;
+  cursor: not-allowed;
+}
+
+.ttv-button-secondary {
+  background: #334155;
+  color: #F1F5F9;
+}
+
+.ttv-button-secondary:hover {
+  background: #475569;
+}
+
+.ttv-button-danger {
+  background: #EF4444;
+}
+
+.ttv-button-danger:hover {
+  background: #DC2626;
+}
+
+/* Forms */
+.ttv-form-group {
+  margin-bottom: 20px;
+}
+
+.ttv-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #F1F5F9;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ttv-input,
+.ttv-textarea,
+.ttv-select {
+  width: 100%;
+  background: #0F172A;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 10px 12px;
+  color: #F1F5F9;
+  font-size: 14px;
+}
+
+.ttv-input:focus,
+.ttv-textarea:focus,
+.ttv-select:focus {
+  outline: none;
+  border-color: #10B981;
+}
+
+.ttv-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Grid */
+.ttv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* List */
+.ttv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ttv-list-item {
+  background: #0F172A;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 12px;
+  transition: border-color 0.2s;
+}
+
+.ttv-list-item:hover {
+  border-color: #10B981;
+}
+
+/* Empty State */
+.ttv-empty-state {
+  text-align: center;
+  padding: 64px 24px;
+  color: #64748B;
+}
+
+.ttv-empty-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.ttv-empty-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: #94A3B8;
+}
+
+.ttv-empty-description {
+  font-size: 14px;
+  margin: 0 0 24px;
+}
+
+/* Loading Spinner */
+.ttv-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px;
+}
+
+.ttv-spinner {
+  border: 4px solid #334155;
+  border-top: 4px solid #10B981;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Alerts */
+.ttv-alert {
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.ttv-alert-success {
+  background: #10B98114;
+  border: 1px solid #10B981;
+  color: #10B981;
+}
+
+.ttv-alert-error {
+  background: #EF444414;
+  border: 1px solid #EF4444;
+  color: #EF4444;
+}
+
+.ttv-alert-warning {
+  background: #F59E0B14;
+  border: 1px solid #F59E0B;
+  color: #F59E0B;
+}
+
+.ttv-alert-info {
+  background: #3B82F614;
+  border: 1px solid #3B82F6;
+  color: #3B82F6;
+}
+
+/* Quick Actions */
+.ttv-quick-action {
+  background: #0F172A;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 24px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+  display: block;
+  text-align: center;
+}
+
+.ttv-quick-action:hover {
+  border-color: #10B981;
+  transform: translateY(-2px);
+}
+
+.ttv-quick-icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.ttv-quick-action h3 {
+  margin: 0 0 8px;
+  color: #F1F5F9;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ttv-quick-action p {
+  margin: 0;
+  color: #94A3B8;
+  font-size: 14px;
+}

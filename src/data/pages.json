@@ -1,0 +1,774 @@
+{
+  "palette": {
+    "background": "#0b0703",
+    "backgroundDeep": "#090502",
+    "surface": "#f3e7c3",
+    "surfaceMuted": "#e6d3a3",
+    "surfaceSoft": "#f7efd8",
+    "ink": "#2a1c0f",
+    "accent": "#ffc878",
+    "accentDark": "#b67b2c",
+    "glow": "rgba(255,200,120,0.4)"
+  },
+  "layouts": {
+    "Standalone": {
+      "description": "Full-bleed experiences that own their chrome (invite flows, onboarding, auth helpers).",
+      "components": []
+    },
+    "AuthLayout": {
+      "description": "Minimal wrapper used by SignUp and LogIn so the page controls its whole stage.",
+      "components": ["LanguageSwitcher", "Brand logo"]
+    },
+    "MainLayout": {
+      "description": "Primary application shell with header, user sidebar, overlays, and modals.",
+      "components": [
+        "Header",
+        "UserSideBar",
+        "ChatOverlayContainer",
+        "ProgressModal",
+        "LogoutModal",
+        "DeleteAccountModal"
+      ]
+    },
+    "TTVLayout": {
+      "description": "Teleprompter/film maker layout with its own navigation chrome.",
+      "components": ["Header", "Teleprompt nav"]
+    },
+    "MathMadnessLayout": {
+      "description": "Math-Madness dual-sidebar canvas for plotting Lit🔥 functions.",
+      "components": ["Header", "MathMadnessSidebar", "FunctionPanel", "GraphCanvas"]
+    },
+    "CodeMonkeyLayout": {
+      "description": "Code Monkey workspace with sidebar, repo tree, reader, and AI chat.",
+      "components": ["CodeMonkeySidebar", "CodeExplorerPage"]
+    }
+  },
+  "pages": [
+    {
+      "id": "invite-entry",
+      "name": "Invite Entry",
+      "route": "/invite/:token",
+      "layout": "Standalone",
+      "component": "InviteEntryPage",
+      "category": "onboarding",
+      "components": ["LanguageSwitcher"],
+      "styleTraits": ["warm glow", "cta-forward"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "invite-accept",
+      "name": "Invite Accept",
+      "route": "/invite/:token/accept",
+      "layout": "Standalone",
+      "component": "InviteAcceptPage",
+      "category": "onboarding",
+      "components": ["LanguageSwitcher"],
+      "styleTraits": ["confirmation", "cta-forward"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "onboarding-router",
+      "name": "Onboarding Router",
+      "route": "/onboarding",
+      "layout": "Standalone",
+      "component": "OnboardingRouter",
+      "category": "onboarding",
+      "components": ["LanguageSwitcher", "State machine onboarding"],
+      "styleTraits": ["immersive", "animated"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "parent-onboarding",
+      "name": "Parent Onboarding",
+      "route": "/parent-onboarding",
+      "layout": "Standalone",
+      "component": "ParentOnboarding",
+      "category": "parents",
+      "components": ["LanguageSwitcher", "Parent steps"],
+      "styleTraits": ["guided", "family imagery"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "legacy-onboarding",
+      "name": "Legacy Onboarding",
+      "route": "/onboarding/:token/*",
+      "layout": "Standalone",
+      "component": "Onboarding",
+      "category": "onboarding",
+      "components": ["Legacy onboarding flow"],
+      "styleTraits": ["legacy", "cta-forward"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "invite-redirect",
+      "name": "Invite Redirect",
+      "route": "/i/:token",
+      "layout": "Standalone",
+      "component": "InviteRedirect",
+      "category": "onboarding",
+      "components": ["Invite redirect logic"],
+      "styleTraits": ["transition", "minimal"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "signup",
+      "name": "Sign Up",
+      "route": "/signup",
+      "layout": "AuthLayout",
+      "component": "SignUp",
+      "category": "auth",
+      "components": ["Formik form", "LanguageSwitcher", "Logo"],
+      "styleTraits": ["dark ember backdrop", "cream card", "glow buttons"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "login",
+      "name": "Log In",
+      "route": "/login",
+      "layout": "AuthLayout",
+      "component": "LogIn",
+      "category": "auth",
+      "components": ["Formik form", "LanguageSwitcher", "Logo"],
+      "styleTraits": ["dark ember backdrop", "cream card", "glow buttons"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "forgot-password",
+      "name": "Forgot Password",
+      "route": "/forgot-password",
+      "layout": "Standalone",
+      "component": "ForgotPassword",
+      "category": "auth",
+      "components": ["Email capture"],
+      "styleTraits": ["minimal form", "cta-forward"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "reset-password",
+      "name": "Reset Password",
+      "route": "/reset-password",
+      "layout": "Standalone",
+      "component": "ResetPassword",
+      "category": "auth",
+      "components": ["Reset form"],
+      "styleTraits": ["minimal form", "cta-forward"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "verify-email",
+      "name": "Verify Email",
+      "route": "/verify-email",
+      "layout": "Standalone",
+      "component": "VerifyEmail",
+      "category": "auth",
+      "components": ["Verification status"],
+      "styleTraits": ["status", "cta-forward"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "ttv-film",
+      "name": "Teleprompt Film",
+      "route": "/ttv/film/:scriptId",
+      "layout": "Standalone",
+      "component": "FilmScriptPage",
+      "category": "ttv",
+      "components": ["Camera", "Spinner"],
+      "styleTraits": ["full-screen media", "dark controls"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "ttv-home",
+      "name": "Teleprompt TV",
+      "route": "/ttv",
+      "layout": "TTVLayout",
+      "component": "TelepromptTVPage",
+      "category": "ttv",
+      "components": ["Spinner", "Script grid"],
+      "styleTraits": ["editorial", "video stage"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "ttv-scripts",
+      "name": "Teleprompt Scripts",
+      "route": "/ttv/scripts",
+      "layout": "TTVLayout",
+      "component": "ScriptsPage",
+      "category": "ttv",
+      "components": ["Spinner", "Script cards"],
+      "styleTraits": ["editorial", "list"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "ttv-videos",
+      "name": "Teleprompt Videos",
+      "route": "/ttv/videos",
+      "layout": "TTVLayout",
+      "component": "VideosPage",
+      "category": "ttv",
+      "components": ["Spinner", "Video grid"],
+      "styleTraits": ["media", "gallery"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "ttv-refunds",
+      "name": "Refund Wizard",
+      "route": "/ttv/refunds",
+      "layout": "TTVLayout",
+      "component": "RefundWizard",
+      "category": "ttv",
+      "components": ["Wizard", "Audit log"],
+      "styleTraits": ["support", "payout", "guided"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "ttv-video-edit",
+      "name": "Edit Video",
+      "route": "/ttv/videos/:videoId/edit",
+      "layout": "TTVLayout",
+      "component": "EditVideoPage",
+      "category": "ttv",
+      "components": ["Spinner", "Editor"],
+      "styleTraits": ["editing", "media tools"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "math-madness-functions",
+      "name": "Lit Functions",
+      "route": "/math-madness",
+      "layout": "MathMadnessLayout",
+      "component": "LitFunctionsPage",
+      "category": "math-madness",
+      "components": ["MathMadnessSidebar", "FunctionPanel", "GraphCanvas"],
+      "styleTraits": ["dual sidebar", "neon grid", "interactive canvas"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "math-madness-functions-3d",
+      "name": "Lit Functions 3D",
+      "route": "/math-madness/3d",
+      "layout": "MathMadnessLayout",
+      "component": "LitFunctions3DPage",
+      "category": "math-madness",
+      "components": ["MathMadnessSidebar", "SurfacePanel", "SurfaceCanvas"],
+      "styleTraits": ["3d surface lab", "orbit controls", "asset export"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "terracotta-army",
+      "name": "Terracotta Army",
+      "route": "/terracotta-army",
+      "layout": "MainLayout",
+      "component": "TerracottaArmyPage",
+      "category": "visualization",
+      "components": ["TerracottaArmyCanvas"],
+      "styleTraits": ["threejs", "instanced mesh", "orbit controls"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "math-madness-maxwell",
+      "name": "Maxwell Lab",
+      "route": "/math-madness/maxwell",
+      "layout": "MathMadnessLayout",
+      "component": "MaxwellEquationsPage",
+      "category": "math-madness",
+      "components": ["MathMadnessSidebar", "MaxwellVisualizer", "Field controls"],
+      "styleTraits": ["light lab", "physics sliders", "animated canvas"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "math-madness-thermo",
+      "name": "Thermo Lab",
+      "route": "/math-madness/thermo",
+      "layout": "MathMadnessLayout",
+      "component": "ThermodynamicsPage",
+      "category": "math-madness",
+      "components": ["MathMadnessSidebar", "ThermoCycleVisualizer", "Reservoir controls"],
+      "styleTraits": ["heat engine", "p-v loop", "thermo sliders"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "code-monkey",
+      "name": "Code Monkey",
+      "route": "/code-monkey",
+      "layout": "CodeMonkeyLayout",
+      "component": "CodeExplorerPage",
+      "category": "tools",
+      "components": ["CodeMonkeySidebar", "Repo tree", "Document reader", "AI chat"],
+      "styleTraits": ["workspace", "ide-like", "dark neon"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "welcome",
+      "name": "Lit Landing",
+      "route": "/welcome",
+      "layout": "MainLayout",
+      "component": "LitLandingPage",
+      "category": "public",
+      "components": ["LanguageSwitcher", "UnfurlingScroll", "CTA button"],
+      "styleTraits": ["hero", "embers", "photo background"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "shared-doc",
+      "name": "Shared Document",
+      "route": "/docs/shared/:token",
+      "layout": "MainLayout",
+      "component": "SharedDocPage",
+      "category": "docs",
+      "components": ["DocTopBar", "DocTitleRow", "PageTabs", "TextPageEditor", "TranslationPageEditor", "AddPageModal"],
+      "styleTraits": ["collaboration", "editor"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "meet-room",
+      "name": "Meet Room",
+      "route": "/meet/:code",
+      "layout": "MainLayout",
+      "component": "MeetRoom",
+      "category": "social",
+      "components": ["Video room"],
+      "styleTraits": ["video call", "live"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "about",
+      "name": "About",
+      "route": "/about",
+      "layout": "MainLayout",
+      "component": "About",
+      "category": "public",
+      "components": ["Rich text"],
+      "styleTraits": ["static info", "policy"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "blog",
+      "name": "Blog",
+      "route": "/blog",
+      "layout": "MainLayout",
+      "component": "Blog",
+      "category": "public",
+      "components": ["Blog feed"],
+      "styleTraits": ["feed", "article cards"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "returns-policy",
+      "name": "Returns Policy",
+      "route": "/returns-policy",
+      "layout": "MainLayout",
+      "component": "ReturnsPolicy",
+      "category": "policy",
+      "components": ["Policy text"],
+      "styleTraits": ["static info"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "privacy-policy",
+      "name": "Privacy Policy",
+      "route": "/privacy-policy",
+      "layout": "MainLayout",
+      "component": "PrivacyPolicy",
+      "category": "policy",
+      "components": ["Policy text"],
+      "styleTraits": ["static info"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "terms",
+      "name": "Terms & Conditions",
+      "route": "/terms-and-conditions",
+      "layout": "MainLayout",
+      "component": "TermsAndConditions",
+      "category": "policy",
+      "components": ["Policy text"],
+      "styleTraits": ["static info"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "privacy-android",
+      "name": "Privacy Policy Keyboard Android",
+      "route": "/privacyPolicyKeyboardAndroid",
+      "layout": "MainLayout",
+      "component": "PrivacyPolicyKeyboardAndroid",
+      "category": "policy",
+      "components": ["Policy text"],
+      "styleTraits": ["static info"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "privacy-iphone",
+      "name": "Privacy Policy Keyboard iPhone",
+      "route": "/privacyPolicyKeyboardiphone",
+      "layout": "MainLayout",
+      "component": "PrivacyPolicyKeyboardiphone",
+      "category": "policy",
+      "components": ["Policy text"],
+      "styleTraits": ["static info"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "ios-keyboard-support",
+      "name": "iOS Keyboard Support",
+      "route": "/iOS-keyboard-support",
+      "layout": "MainLayout",
+      "component": "IosKeyboardSupport",
+      "category": "policy",
+      "components": ["Support steps"],
+      "styleTraits": ["static info", "guide"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "access-blocked",
+      "name": "Access Blocked",
+      "route": "/access-blocked",
+      "layout": "MainLayout",
+      "component": "AccessBlocked",
+      "category": "access",
+      "components": ["Status message"],
+      "styleTraits": ["alert", "notice"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "forest",
+      "name": "Forest Of Knowledge",
+      "route": "/forest",
+      "layout": "MainLayout",
+      "component": "ForestOfKnowledge",
+      "category": "learning",
+      "components": ["3D forest"],
+      "styleTraits": ["3d", "exploratory"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "knowledge-tree",
+      "name": "Knowledge Tree",
+      "route": "/forest/:treeKey",
+      "layout": "MainLayout",
+      "component": "KnowledgeTreePage",
+      "category": "learning",
+      "components": ["Tree viewer"],
+      "styleTraits": ["3d", "exploratory"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "hq",
+      "name": "HQ",
+      "route": "/",
+      "layout": "MainLayout",
+      "component": "HQPage",
+      "category": "home",
+      "components": ["HQ grid"],
+      "styleTraits": ["dashboard", "cta-forward"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "quest-log",
+      "name": "Quest Log",
+      "route": "/quest-log",
+      "layout": "MainLayout",
+      "component": "ViewLessons",
+      "category": "learning",
+      "components": ["Spinner", "Lessons list"],
+      "styleTraits": ["list", "progress"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "route": "/home",
+      "layout": "MainLayout",
+      "component": "Home",
+      "category": "learning",
+      "components": ["Keyboard", "PlayButton", "VideoPlay", "CompletionModal", "LevelContainer"],
+      "styleTraits": ["practice", "audio"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "tree",
+      "name": "Tree",
+      "route": "/tree",
+      "layout": "MainLayout",
+      "component": "Tree",
+      "category": "learning",
+      "components": ["3D tree"],
+      "styleTraits": ["3d", "exploratory"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "meet-home",
+      "name": "Meet Home",
+      "route": "/meet",
+      "layout": "MainLayout",
+      "component": "MeetHome",
+      "category": "social",
+      "components": ["Meet lobby"],
+      "styleTraits": ["video call", "lobby"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "lesson",
+      "name": "Lesson",
+      "route": "/lesson/:lessonId",
+      "layout": "MainLayout",
+      "component": "LessonPage",
+      "category": "learning",
+      "components": ["Home"],
+      "styleTraits": ["lesson detail", "player"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "teacher-dashboard",
+      "name": "Teacher Dashboard",
+      "route": "/teacher-dashboard",
+      "layout": "MainLayout",
+      "component": "TeacherDashboard",
+      "category": "teaching",
+      "components": ["Class list"],
+      "styleTraits": ["dashboard", "teaching"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "student-dashboard",
+      "name": "Student Dashboard",
+      "route": "/student-dashboard",
+      "layout": "MainLayout",
+      "component": "StudentDashboard",
+      "category": "teaching",
+      "components": ["Class modules"],
+      "styleTraits": ["dashboard", "learning"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "parent-dashboard",
+      "name": "Parent Dashboard",
+      "route": "/parent-dashboard",
+      "layout": "MainLayout",
+      "component": "ParentDashboard",
+      "category": "parents",
+      "components": ["Progress overview"],
+      "styleTraits": ["dashboard", "family"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "docs",
+      "name": "Documents",
+      "route": "/docs",
+      "layout": "MainLayout",
+      "component": "DocumentsPage",
+      "category": "docs",
+      "components": ["Docs list"],
+      "styleTraits": ["list", "editor"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "doc-editor",
+      "name": "Document Editor",
+      "route": "/docs/:id",
+      "layout": "MainLayout",
+      "component": "DocumentEditor",
+      "category": "docs",
+      "components": ["DocTopBar", "DocTitleRow", "PageTabs", "TextPageEditor", "TranslationPageEditor", "AddPageModal", "ShareDocModal"],
+      "styleTraits": ["editor", "collaboration"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "profile",
+      "name": "Profile",
+      "route": "/profile/:handle",
+      "layout": "MainLayout",
+      "component": "Profile",
+      "category": "social",
+      "components": ["ProfileHeader", "RelationshipChip", "EmptyProfileState"],
+      "styleTraits": ["profile", "cards"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "message",
+      "name": "Messages",
+      "route": "/message",
+      "layout": "MainLayout",
+      "component": "Message",
+      "category": "social",
+      "components": ["VideoCall", "AudioCall", "IncomingCallModal"],
+      "styleTraits": ["chat", "calls"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "lit-counsel",
+      "name": "Lit Counsel",
+      "route": "/chat",
+      "layout": "MainLayout",
+      "component": "LitCounsel",
+      "category": "admin",
+      "components": ["Chat UI"],
+      "styleTraits": ["admin", "messaging"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "booking",
+      "name": "Booking",
+      "route": "/booking",
+      "layout": "MainLayout",
+      "component": "BookingPage",
+      "category": "booking",
+      "components": ["Calendar"],
+      "styleTraits": ["scheduler"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "translate",
+      "name": "Translate",
+      "route": "/translate",
+      "layout": "MainLayout",
+      "component": "TranslationPage",
+      "category": "translation",
+      "components": ["PreviousTranslations"],
+      "styleTraits": ["utility", "floating overlay"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "speaking",
+      "name": "Speaking",
+      "route": "/speaking",
+      "layout": "MainLayout",
+      "component": "SpeakingPage",
+      "category": "learning",
+      "components": ["DisplayText"],
+      "styleTraits": ["practice", "prompt"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "completion",
+      "name": "Completion",
+      "route": "/completion",
+      "layout": "MainLayout",
+      "component": "Completion",
+      "category": "learning",
+      "components": ["Completion summary"],
+      "styleTraits": ["celebration"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "sound-upload",
+      "name": "Sound Upload",
+      "route": "/sound/upload",
+      "layout": "MainLayout",
+      "component": "SoundUpload",
+      "category": "media",
+      "components": ["Upload form"],
+      "styleTraits": ["utility", "form"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "route": "/settings",
+      "layout": "MainLayout",
+      "component": "Settings",
+      "category": "account",
+      "components": ["LanguageSwitcher", "Account settings"],
+      "styleTraits": ["form", "preferences"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "post-blog",
+      "name": "Post Blog",
+      "route": "/post",
+      "layout": "MainLayout",
+      "component": "PostBlog",
+      "category": "content",
+      "components": ["Blog editor"],
+      "styleTraits": ["editor", "form"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "checkout",
+      "name": "Checkout",
+      "route": "/checkout",
+      "layout": "MainLayout",
+      "component": "StripePayment",
+      "category": "payments",
+      "components": ["StripePayment"],
+      "styleTraits": ["payment", "form"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "success",
+      "name": "Payment Success",
+      "route": "/success",
+      "layout": "MainLayout",
+      "component": "Success",
+      "category": "payments",
+      "components": ["Success confirmation"],
+      "styleTraits": ["celebration", "status"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "delete-account",
+      "name": "Delete Account",
+      "route": "/delete-account",
+      "layout": "MainLayout",
+      "component": "DeleteAccountPage",
+      "category": "account",
+      "components": ["RequestDeleteForm"],
+      "styleTraits": ["warning", "form"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "info-level",
+      "name": "Info Level",
+      "route": "/info",
+      "layout": "MainLayout",
+      "component": "InfoLevel",
+      "category": "learning",
+      "components": ["Info blocks"],
+      "styleTraits": ["guide", "info"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "gaussian-elimination",
+      "name": "Gaussian Elimination",
+      "route": "/gaussian-elimination",
+      "layout": "MainLayout",
+      "component": "GaussianElimination",
+      "category": "math",
+      "components": ["Matrix solver"],
+      "styleTraits": ["utility", "interactive"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "invitations",
+      "name": "Invitations",
+      "route": "/invitations",
+      "layout": "MainLayout",
+      "component": "Invitations",
+      "category": "social",
+      "components": ["Invitation list"],
+      "styleTraits": ["list", "cta-forward"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "admin-dashboard",
+      "name": "Admin Dashboard",
+      "route": "/dashboard",
+      "layout": "MainLayout",
+      "component": "AdminDashboard",
+      "category": "admin",
+      "components": ["AdminSideBar", "AdminStats"],
+      "styleTraits": ["admin", "workspace"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    },
+    {
+      "id": "admin-view-lessons",
+      "name": "Admin Lessons",
+      "route": "/admin-view-lessons",
+      "layout": "MainLayout",
+      "component": "AdminViewLessons",
+      "category": "admin",
+      "components": ["Lessons table"],
+      "styleTraits": ["admin", "list"],
+      "backgrounds": { "desktop": null, "mobile": null }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "A": {
+    "letter": "A",
+    "name": "A",
+    "position": 1,
+    "sounds": ["/aː/", "/a/"],
+    "articulation": "open front unrounded vowel",
+    "description": "Similar to the 'a' in 'father'."
+  },
+  "Ä": {
+    "letter": "Ä",
+    "name": "Ä",
+    "position": 2,
+    "sounds": ["/ɛː/", "/ɛ/"],
+    "articulation": "open-mid front unrounded vowel",
+    "description": "Similar to the 'e' in 'bed'."
+  },
+  "B": {
+    "letter": "B",
+    "name": "B",
+    "position": 3,
+    "sounds": ["/b/"],
+    "articulation": "voiced bilabial stop",
+    "description": "Similar to the 'b' in 'bat'."
+  },
+  "C": {
+    "letter": "C",
+    "name": "C",
+    "position": 4,
+    "sounds": ["/k/", "/ts/", "/tʃ/"],
+    "articulation": "voiceless velar stop, voiceless alveolar affricate, or voiceless postalveolar affricate",
+    "description": "Pronunciation varies with context; similar to 'k' in 'cat', 'ts' in 'cats', or 'ch' in 'church'."
+  },
+  "D": {
+    "letter": "D",
+    "name": "D",
+    "position": 5,
+    "sounds": ["/d/"],
+    "articulation": "voiced alveolar stop",
+    "description": "Similar to the 'd' in 'dog'."
+  },
+  "E": {
+    "letter": "E",
+    "name": "E",
+    "position": 6,
+    "sounds": ["/eː/", "/ɛ/", "/ə/"],
+    "articulation": "close-mid front unrounded vowel, open-mid front unrounded vowel, or schwa",
+    "description": "Similar to 'e' in 'bed' or 'ee' in 'see'."
+  },
+  "F": {
+    "letter": "F",
+    "name": "F",
+    "position": 7,
+    "sounds": ["/f/"],
+    "articulation": "voiceless labiodental fricative",
+    "description": "Similar to the 'f' in 'fish'."
+  },
+  "G": {
+    "letter": "G",
+    "name": "G",
+    "position": 8,
+    "sounds": ["/ɡ/", "/ç/"],
+    "articulation": "voiced velar stop or voiceless palatal fricative",
+    "description": "Similar to the 'g' in 'go' or the 'ch' in 'ich' (soft sound)."
+  },
+  "H": {
+    "letter": "H",
+    "name": "H",
+    "position": 9,
+    "sounds": ["/h/"],
+    "articulation": "voiceless glottal fricative",
+    "description": "Similar to the 'h' in 'hat'."
+  },
+  "I": {
+    "letter": "I",
+    "name": "I",
+    "position": 10,
+    "sounds": ["/iː/", "/ɪ/"],
+    "articulation": "close front unrounded vowel or near-close near-front unrounded vowel",
+    "description": "Similar to 'i' in 'machine' or 'i' in 'bit'."
+  },
+  "J": {
+    "letter": "J",
+    "name": "J",
+    "position": 11,
+    "sounds": ["/j/"],
+    "articulation": "palatal approximant",
+    "description": "Similar to the 'y' in 'yes'."
+  },
+  "K": {
+    "letter": "K",
+    "name": "K",
+    "position": 12,
+    "sounds": ["/k/"],
+    "articulation": "voiceless velar stop",
+    "description": "Similar to the 'k' in 'kite'."
+  },
+  "L": {
+    "letter": "L",
+    "name": "L",
+    "position": 13,
+    "sounds": ["/l/"],
+    "articulation": "voiced alveolar lateral approximant",
+    "description": "Similar to the 'l' in 'love'."
+  },
+  "M": {
+    "letter": "M",
+    "name": "M",
+    "position": 14,
+    "sounds": ["/m/"],
+    "articulation": "voiced bilabial nasal",
+    "description": "Similar to the 'm' in 'man'."
+  },
+  "N": {
+    "letter": "N",
+    "name": "N",
+    "position": 15,
+    "sounds": ["/n/"],
+    "articulation": "voiced alveolar nasal",
+    "description": "Similar to the 'n' in 'nose'."
+  },
+  "O": {
+    "letter": "O",
+    "name": "O",
+    "position": 16,
+    "sounds": ["/oː/", "/ɔ/"],
+    "articulation": "close-mid back rounded vowel or open-mid back rounded vowel",
+    "description": "Similar to 'o' in 'more' or 'o' in 'pot'."
+  },
+  "Ö": {
+    "letter": "Ö",
+    "name": "Ö",
+    "position": 17,
+    "sounds": ["/øː/", "/œ/"],
+    "articulation": "close-mid front rounded vowel or open-mid front rounded vowel",
+    "description": "Similar to the 'i' in 'bird' (British accent) or the 'eu' in 'feu' (French)."
+  },
+  "P": {
+    "letter": "P",
+    "name": "P",
+    "position": 18,
+    "sounds": ["/p/"],
+    "articulation": "voiceless bilabial stop",
+    "description": "Similar to the 'p' in 'pat'."
+  },
+  "Q": {
+    "letter": "Q",
+    "name": "Q",
+    "position": 19,
+    "sounds": ["/kv/"],
+    "articulation": "cluster of voiceless velar stop and voiced labiodental fricative",
+    "description": "Used in the 'qu' combination, similar to the 'qu' in 'quick'."
+  },
+  "R": {
+    "letter": "R",
+    "name": "R",
+    "position": 20,
+    "sounds": ["/ʁ/", "/r/"],
+    "articulation": "voiced uvular fricative or alveolar trill",
+    "description": "Varies by region: guttural or rolled 'r'."
+  },
+  "S": {
+    "letter": "S",
+    "name": "S",
+    "position": 21,
+    "sounds": ["/z/", "/s/"],
+    "articulation": "voiced alveolar fricative or voiceless alveolar fricative",
+    "description": "Similar to 'z' in 'zero' or 's' in 'see'."
+  },
+  "T": {
+    "letter": "T",
+    "name": "T",
+    "position": 22,
+    "sounds": ["/t/"],
+    "articulation": "voiceless alveolar stop",
+    "description": "Similar to the 't' in 'top'."
+  },
+  "U": {
+    "letter": "U",
+    "name": "U",
+    "position": 23,
+    "sounds": ["/uː/", "/ʊ/"],
+    "articulation": "close back rounded vowel or near-close near-back rounded vowel",
+    "description": "Similar to 'oo' in 'food' or 'u' in 'put'."
+  },
+  "Ü": {
+    "letter": "Ü",
+    "name": "Ü",
+    "position": 24,
+    "sounds": ["/yː/", "/ʏ/"],
+    "articulation": "close front rounded vowel or near-close near-front rounded vowel",
+    "description": "Similar to the 'u' in 'über' (German) or the 'u' in 'lune' (French)."
+  },
+  "V": {
+    "letter": "V",
+    "name": "V",
+    "position": 25,
+    "sounds": ["/f/", "/v/"],
+    "articulation": "voiceless labiodental fricative or voiced labiodental fricative",
+    "description": "Varies by word origin: like 'f' in 'fox' or 'v' in 'vase'."
+  },
+  "W": {
+    "letter": "W",
+    "name": "W",
+    "position": 26,
+    "sounds": ["/v/"],
+    "articulation": "voiced labiodental fricative",
+    "description": "Similar to the 'v' in 'vase'."
+  },
+  "X": {
+    "letter": "X",
+    "name": "X",
+    "position": 27,
+    "sounds": ["/ks/"],
+    "articulation": "voiceless velar fricative followed by voiceless alveolar fricative",
+    "description": "Similar to 'x' in 'box'."
+  },
+  "Y": {
+    "letter": "Y",
+    "name": "Y",
+    "position": 28,
+    "sounds": ["/yː/", "/ʏ/"],
+    "articulation": "close front rounded vowel or near-close near-front rounded vowel",
+    "description": "Similar to 'ü' in German 'über'."
+  },
+  "Z": {
+    "letter": "Z",
+    "name": "Z",
+    "position": 29,
+    "sounds": ["/ts/"],
+    "articulation": "voiceless alveolar affricate",
+    "description": "Similar to 'ts' in 'cats'."
+  }
+}

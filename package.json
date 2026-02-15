@@ -1,0 +1,46 @@
+{
+  "name": "lit-mvp-web",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:deb": "VITE_BRAND=deb vite --port 5555",
+    "dev:signphony": "VITE_BRAND=signphony vite",
+    "build": "vite build",
+    "build:deb": "VITE_BRAND=deb vite build",
+    "build:signphony": "VITE_BRAND=signphony vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.108.3",
+    "@react-three/fiber": "^8.17.10",
+    "@tanstack/react-query": "^5.90.21",
+    "axios": "^1.13.5",
+    "lucide-react": "^0.542.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^6.21.1",
+    "socket.io-client": "^4.6.1",
+    "three": "^0.167.1",
+    "zustand": "^4.5.0",
+    "immer": "^10.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^14.3.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^2.1.9",
+    "jsdom": "^26.1.0",
+    "vite": "^5.0.11",
+    "vitest": "^2.1.9"
+  }
+}

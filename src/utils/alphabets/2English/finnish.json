@@ -1,0 +1,301 @@
+{
+  "A": {
+    "letter": "A",
+    "name": "A",
+    "position": 1,
+    "sounds": [
+      "/ɑ/",
+      "/æ/"
+    ],
+    "articulation": "open back unrounded vowel or front vowel in some dialects",
+    "description": "Represents a low vowel, similar to the 'a' in 'father'."
+  },
+  "B": {
+    "letter": "B",
+    "name": "Bee",
+    "position": 2,
+    "sounds": [
+      "/b/"
+    ],
+    "articulation": "voiced bilabial stop",
+    "description": "Used mainly in loanwords; similar to 'b' in 'bat'."
+  },
+  "C": {
+    "letter": "C",
+    "name": "Cee",
+    "position": 3,
+    "sounds": [
+      "/k/",
+      "/s/"
+    ],
+    "articulation": "voiceless velar stop or voiceless alveolar fricative",
+    "description": "Appears in loanwords, pronounced as /k/ before back vowels, /s/ before front vowels."
+  },
+  "D": {
+    "letter": "D",
+    "name": "Dee",
+    "position": 4,
+    "sounds": [
+      "/d/"
+    ],
+    "articulation": "voiced alveolar stop",
+    "description": "Similar to 'd' in 'dog', used mostly in loanwords."
+  },
+  "E": {
+    "letter": "E",
+    "name": "E",
+    "position": 5,
+    "sounds": [
+      "/e/",
+      "/ɛ/"
+    ],
+    "articulation": "close-mid front unrounded vowel or open-mid front unrounded vowel",
+    "description": "Represents a mid vowel, similar to 'e' in 'bet'."
+  },
+  "F": {
+    "letter": "F",
+    "name": "Eff",
+    "position": 6,
+    "sounds": [
+      "/f/"
+    ],
+    "articulation": "voiceless labiodental fricative",
+    "description": "Used primarily in loanwords, similar to 'f' in 'fish'."
+  },
+  "G": {
+    "letter": "G",
+    "name": "Gee",
+    "position": 7,
+    "sounds": [
+      "/ɡ/"
+    ],
+    "articulation": "voiced velar stop",
+    "description": "Occurs in loanwords; similar to 'g' in 'go'."
+  },
+  "H": {
+    "letter": "H",
+    "name": "Hoo",
+    "position": 8,
+    "sounds": [
+      "/h/"
+    ],
+    "articulation": "voiceless glottal fricative",
+    "description": "Similar to 'h' in 'hat'."
+  },
+  "I": {
+    "letter": "I",
+    "name": "I",
+    "position": 9,
+    "sounds": [
+      "/i/",
+      "/iː/"
+    ],
+    "articulation": "close front unrounded vowel",
+    "description": "Represents a high front vowel, similar to 'ee' in 'see'."
+  },
+  "J": {
+    "letter": "J",
+    "name": "Jii",
+    "position": 10,
+    "sounds": [
+      "/j/"
+    ],
+    "articulation": "palatal approximant",
+    "description": "Similar to 'y' in 'yes'."
+  },
+  "K": {
+    "letter": "K",
+    "name": "Koo",
+    "position": 11,
+    "sounds": [
+      "/k/"
+    ],
+    "articulation": "voiceless velar stop",
+    "description": "Similar to 'k' in 'kite'."
+  },
+  "L": {
+    "letter": "L",
+    "name": "Ell",
+    "position": 12,
+    "sounds": [
+      "/l/"
+    ],
+    "articulation": "voiced alveolar lateral approximant",
+    "description": "Similar to 'l' in 'love'."
+  },
+  "M": {
+    "letter": "M",
+    "name": "Em",
+    "position": 13,
+    "sounds": [
+      "/m/"
+    ],
+    "articulation": "voiced bilabial nasal",
+    "description": "Similar to 'm' in 'man'."
+  },
+  "N": {
+    "letter": "N",
+    "name": "En",
+    "position": 14,
+    "sounds": [
+      "/n/"
+    ],
+    "articulation": "voiced alveolar nasal",
+    "description": "Similar to 'n' in 'no'."
+  },
+  "O": {
+    "letter": "O",
+    "name": "O",
+    "position": 15,
+    "sounds": [
+      "/o/",
+      "/oː/"
+    ],
+    "articulation": "close-mid back rounded vowel",
+    "description": "Similar to 'o' in 'hope'."
+  },
+  "P": {
+    "letter": "P",
+    "name": "Pee",
+    "position": 16,
+    "sounds": [
+      "/p/"
+    ],
+    "articulation": "voiceless bilabial stop",
+    "description": "Similar to 'p' in 'pat'."
+  },
+  "Q": {
+    "letter": "Q",
+    "name": "Quu",
+    "position": 17,
+    "sounds": [
+      "/kʷ/"
+    ],
+    "articulation": "voiceless labialized velar stop",
+    "description": "Appears in some loanwords, pronounced like 'q' in 'quest'."
+  },
+  "R": {
+    "letter": "R",
+    "name": "Ehr",
+    "position": 18,
+    "sounds": [
+      "/r/"
+    ],
+    "articulation": "voiced alveolar trill",
+    "description": "Similar to trilled 'r' in Spanish."
+  },
+  "S": {
+    "letter": "S",
+    "name": "Ess",
+    "position": 19,
+    "sounds": [
+      "/s/"
+    ],
+    "articulation": "voiceless alveolar fricative",
+    "description": "Similar to 's' in 'see'."
+  },
+  "T": {
+    "letter": "T",
+    "name": "Tee",
+    "position": 20,
+    "sounds": [
+      "/t/"
+    ],
+    "articulation": "voiceless alveolar stop",
+    "description": "Similar to 't' in 'top'."
+  },
+  "U": {
+    "letter": "U",
+    "name": "U",
+    "position": 21,
+    "sounds": [
+      "/u/",
+      "/uː/"
+    ],
+    "articulation": "close back rounded vowel",
+    "description": "Similar to 'oo' in 'food'."
+  },
+  "V": {
+    "letter": "V",
+    "name": "Vee",
+    "position": 22,
+    "sounds": [
+      "/ʋ/"
+    ],
+    "articulation": "voiced labiodental approximant",
+    "description": "Similar to 'v' in 'very', but with a softer articulation."
+  },
+  "W": {
+    "letter": "W",
+    "name": "Kaksois-Vee",
+    "position": 23,
+    "sounds": [
+      "/v/"
+    ],
+    "articulation": "voiced labiodental fricative",
+    "description": "Used mainly in loanwords, similar to 'w' in 'water'."
+  },
+  "X": {
+    "letter": "X",
+    "name": "Äks",
+    "position": 24,
+    "sounds": [
+      "/ks/"
+    ],
+    "articulation": "voiceless velar-alveolar combination",
+    "description": "Used mainly in loanwords, similar to 'x' in 'box'."
+  },
+  "Y": {
+    "letter": "Y",
+    "name": "Y",
+    "position": 25,
+    "sounds": [
+      "/y/",
+      "/yː/"
+    ],
+    "articulation": "close front rounded vowel",
+    "description": "Similar to the French 'u' in 'lune'."
+  },
+  "Z": {
+    "letter": "Z",
+    "name": "Tset",
+    "position": 26,
+    "sounds": [
+      "/ts/"
+    ],
+    "articulation": "voiceless alveolar affricate",
+    "description": "Used in loanwords, similar to 'ts' in 'cats'."
+  },
+  "Å": {
+    "letter": "Å",
+    "name": "Å",
+    "position": 27,
+    "sounds": [
+      "/oː/"
+    ],
+    "articulation": "close-mid back rounded vowel",
+    "description": "Used in some dialects and loanwords, similar to 'o' in 'more'."
+  },
+  "Ä": {
+    "letter": "Ä",
+    "name": "Ä",
+    "position": 28,
+    "sounds": [
+      "/æ/",
+      "/æː/"
+    ],
+    "articulation": "near-open front unrounded vowel",
+    "description": "Similar to 'a' in 'cat'."
+  },
+  "Ö": {
+    "letter": "Ö",
+    "name": "Ö",
+    "position": 29,
+    "sounds": [
+      "/ø/",
+      "/øː/"
+    ],
+    "articulation": "close-mid front rounded vowel",
+    "description": "Similar to the French 'eu' in 'peur'."
+  }
+}

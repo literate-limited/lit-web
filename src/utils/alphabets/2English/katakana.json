@@ -1,0 +1,714 @@
+{
+  "ア": {
+    "letter": "ア",
+    "name": "A",
+    "position": 1,
+    "sounds": [
+      "/a/"
+    ],
+    "articulation": "open front unrounded vowel",
+    "description": "Represents the vowel sound 'a' as in 'car'."
+  },
+  "イ": {
+    "letter": "イ",
+    "name": "I",
+    "position": 2,
+    "sounds": [
+      "/i/"
+    ],
+    "articulation": "close front unrounded vowel",
+    "description": "Represents the vowel sound 'ee' as in 'see'."
+  },
+  "ウ": {
+    "letter": "ウ",
+    "name": "U",
+    "position": 3,
+    "sounds": [
+      "/u/"
+    ],
+    "articulation": "close back rounded vowel",
+    "description": "Represents the vowel sound 'oo' as in 'boot'."
+  },
+  "エ": {
+    "letter": "エ",
+    "name": "E",
+    "position": 4,
+    "sounds": [
+      "/e/"
+    ],
+    "articulation": "close-mid front unrounded vowel",
+    "description": "Represents the vowel sound 'e' as in 'bed'."
+  },
+  "オ": {
+    "letter": "オ",
+    "name": "O",
+    "position": 5,
+    "sounds": [
+      "/o/"
+    ],
+    "articulation": "close-mid back rounded vowel",
+    "description": "Represents the vowel sound 'o' as in 'note'."
+  },
+  "カ": {
+    "letter": "カ",
+    "name": "Ka",
+    "position": 6,
+    "sounds": [
+      "/ka/"
+    ],
+    "articulation": "voiceless velar stop with 'a'",
+    "description": "Represents the sound 'ka' as in 'car'."
+  },
+  "キ": {
+    "letter": "キ",
+    "name": "Ki",
+    "position": 7,
+    "sounds": [
+      "/ki/"
+    ],
+    "articulation": "voiceless velar stop with 'i'",
+    "description": "Represents the sound 'ki' as in 'key'."
+  },
+  "ク": {
+    "letter": "ク",
+    "name": "Ku",
+    "position": 8,
+    "sounds": [
+      "/ku/"
+    ],
+    "articulation": "voiceless velar stop with 'u'",
+    "description": "Represents the sound 'ku' as in 'cool'."
+  },
+  "ケ": {
+    "letter": "ケ",
+    "name": "Ke",
+    "position": 9,
+    "sounds": [
+      "/ke/"
+    ],
+    "articulation": "voiceless velar stop with 'e'",
+    "description": "Represents the sound 'ke' as in 'kept'."
+  },
+  "コ": {
+    "letter": "コ",
+    "name": "Ko",
+    "position": 10,
+    "sounds": [
+      "/ko/"
+    ],
+    "articulation": "voiceless velar stop with 'o'",
+    "description": "Represents the sound 'ko' as in 'cone'."
+  },
+  "サ": {
+    "letter": "サ",
+    "name": "Sa",
+    "position": 11,
+    "sounds": [
+      "/sa/"
+    ],
+    "articulation": "voiceless alveolar fricative with 'a'",
+    "description": "Represents the sound 'sa' as in 'saw'."
+  },
+  "シ": {
+    "letter": "シ",
+    "name": "Shi",
+    "position": 12,
+    "sounds": [
+      "/ɕi/"
+    ],
+    "articulation": "voiceless alveolo-palatal fricative with 'i'",
+    "description": "Represents the sound 'shi' as in 'she'."
+  },
+  "ス": {
+    "letter": "ス",
+    "name": "Su",
+    "position": 13,
+    "sounds": [
+      "/su/"
+    ],
+    "articulation": "voiceless alveolar fricative with 'u'",
+    "description": "Represents the sound 'su' as in 'soon'."
+  },
+  "セ": {
+    "letter": "セ",
+    "name": "Se",
+    "position": 14,
+    "sounds": [
+      "/se/"
+    ],
+    "articulation": "voiceless alveolar fricative with 'e'",
+    "description": "Represents the sound 'se' as in 'set'."
+  },
+  "ソ": {
+    "letter": "ソ",
+    "name": "So",
+    "position": 15,
+    "sounds": [
+      "/so/"
+    ],
+    "articulation": "voiceless alveolar fricative with 'o'",
+    "description": "Represents the sound 'so' as in 'song'."
+  },
+  "タ": {
+    "letter": "タ",
+    "name": "Ta",
+    "position": 16,
+    "sounds": [
+      "/ta/"
+    ],
+    "articulation": "voiceless alveolar stop with 'a'",
+    "description": "Represents the sound 'ta' as in 'tar'."
+  },
+  "チ": {
+    "letter": "チ",
+    "name": "Chi",
+    "position": 17,
+    "sounds": [
+      "/tɕi/"
+    ],
+    "articulation": "voiceless alveolo-palatal affricate with 'i'",
+    "description": "Represents the sound 'chi' as in 'cheese'."
+  },
+  "ツ": {
+    "letter": "ツ",
+    "name": "Tsu",
+    "position": 18,
+    "sounds": [
+      "/tsu/"
+    ],
+    "articulation": "voiceless alveolar affricate with 'u'",
+    "description": "Represents the sound 'tsu' similar to 'tsunami'."
+  },
+  "テ": {
+    "letter": "テ",
+    "name": "Te",
+    "position": 19,
+    "sounds": [
+      "/te/"
+    ],
+    "articulation": "voiceless alveolar stop with 'e'",
+    "description": "Represents the sound 'te' as in 'ten'."
+  },
+  "ト": {
+    "letter": "ト",
+    "name": "To",
+    "position": 20,
+    "sounds": [
+      "/to/"
+    ],
+    "articulation": "voiceless alveolar stop with 'o'",
+    "description": "Represents the sound 'to' as in 'top'."
+  },
+  "ナ": {
+    "letter": "ナ",
+    "name": "Na",
+    "position": 21,
+    "sounds": [
+      "/na/"
+    ],
+    "articulation": "voiced alveolar nasal with 'a'",
+    "description": "Represents the sound 'na' as in 'nap'."
+  },
+  "ニ": {
+    "letter": "ニ",
+    "name": "Ni",
+    "position": 22,
+    "sounds": [
+      "/ni/"
+    ],
+    "articulation": "voiced alveolar nasal with 'i'",
+    "description": "Represents the sound 'ni' as in 'knee'."
+  },
+  "ヌ": {
+    "letter": "ヌ",
+    "name": "Nu",
+    "position": 23,
+    "sounds": [
+      "/nu/"
+    ],
+    "articulation": "voiced alveolar nasal with 'u'",
+    "description": "Represents the sound 'nu' as in 'noon'."
+  },
+  "ネ": {
+    "letter": "ネ",
+    "name": "Ne",
+    "position": 24,
+    "sounds": [
+      "/ne/"
+    ],
+    "articulation": "voiced alveolar nasal with 'e'",
+    "description": "Represents the sound 'ne' as in 'net'."
+  },
+  "ノ": {
+    "letter": "ノ",
+    "name": "No",
+    "position": 25,
+    "sounds": [
+      "/no/"
+    ],
+    "articulation": "voiced alveolar nasal with 'o'",
+    "description": "Represents the sound 'no' as in 'not'."
+  },
+  "ハ": {
+    "letter": "ハ",
+    "name": "Ha",
+    "position": 26,
+    "sounds": [
+      "/ha/"
+    ],
+    "articulation": "voiceless glottal fricative with 'a'",
+    "description": "Represents the sound 'ha' as in 'hat'."
+  },
+  "ヒ": {
+    "letter": "ヒ",
+    "name": "Hi",
+    "position": 27,
+    "sounds": [
+      "/çi/"
+    ],
+    "articulation": "voiceless palatal fricative with 'i'",
+    "description": "Represents the sound 'hi' as in 'he'."
+  },
+  "フ": {
+    "letter": "フ",
+    "name": "Fu",
+    "position": 28,
+    "sounds": [
+      "/ɸu/"
+    ],
+    "articulation": "voiceless bilabial fricative with 'u'",
+    "description": "Represents the sound 'fu' as in 'food'."
+  },
+  "ヘ": {
+    "letter": "ヘ",
+    "name": "He",
+    "position": 29,
+    "sounds": [
+      "/he/"
+    ],
+    "articulation": "voiceless glottal fricative with 'e'",
+    "description": "Represents the sound 'he' as in 'help'."
+  },
+  "ホ": {
+    "letter": "ホ",
+    "name": "Ho",
+    "position": 30,
+    "sounds": [
+      "/ho/"
+    ],
+    "articulation": "voiceless glottal fricative with 'o'",
+    "description": "Represents the sound 'ho' as in 'hot'."
+  },
+  "マ": {
+    "letter": "マ",
+    "name": "Ma",
+    "position": 31,
+    "sounds": [
+      "/ma/"
+    ],
+    "articulation": "voiced bilabial nasal with 'a'",
+    "description": "Represents the sound 'ma' as in 'map'."
+  },
+  "ミ": {
+    "letter": "ミ",
+    "name": "Mi",
+    "position": 32,
+    "sounds": [
+      "/mi/"
+    ],
+    "articulation": "voiced bilabial nasal with 'i'",
+    "description": "Represents the sound 'mi' as in 'meet'."
+  },
+  "ム": {
+    "letter": "ム",
+    "name": "Mu",
+    "position": 33,
+    "sounds": [
+      "/mu/"
+    ],
+    "articulation": "voiced bilabial nasal with 'u'",
+    "description": "Represents the sound 'mu' as in 'moon'."
+  },
+  "メ": {
+    "letter": "メ",
+    "name": "Me",
+    "position": 34,
+    "sounds": [
+      "/me/"
+    ],
+    "articulation": "voiced bilabial nasal with 'e'",
+    "description": "Represents the sound 'me' as in 'met'."
+  },
+  "モ": {
+    "letter": "モ",
+    "name": "Mo",
+    "position": 35,
+    "sounds": [
+      "/mo/"
+    ],
+    "articulation": "voiced bilabial nasal with 'o'",
+    "description": "Represents the sound 'mo' as in 'more'."
+  },
+  "ヤ": {
+    "letter": "ヤ",
+    "name": "Ya",
+    "position": 36,
+    "sounds": [
+      "/ja/"
+    ],
+    "articulation": "palatal approximant with 'a'",
+    "description": "Represents the sound 'ya' as in 'yard'."
+  },
+  "ユ": {
+    "letter": "ユ",
+    "name": "Yu",
+    "position": 37,
+    "sounds": [
+      "/ju/"
+    ],
+    "articulation": "palatal approximant with 'u'",
+    "description": "Represents the sound 'yu' as in 'you'."
+  },
+  "ヨ": {
+    "letter": "ヨ",
+    "name": "Yo",
+    "position": 38,
+    "sounds": [
+      "/jo/"
+    ],
+    "articulation": "palatal approximant with 'o'",
+    "description": "Represents the sound 'yo' as in 'yoke'."
+  },
+  "ラ": {
+    "letter": "ラ",
+    "name": "Ra",
+    "position": 39,
+    "sounds": [
+      "/ɾa/"
+    ],
+    "articulation": "alveolar tap with 'a'",
+    "description": "Represents the sound 'ra' as in 'rock'."
+  },
+  "リ": {
+    "letter": "リ",
+    "name": "Ri",
+    "position": 40,
+    "sounds": [
+      "/ɾi/"
+    ],
+    "articulation": "alveolar tap with 'i'",
+    "description": "Represents the sound 'ri' as in 'reef'."
+  },
+  "ル": {
+    "letter": "ル",
+    "name": "Ru",
+    "position": 41,
+    "sounds": [
+      "/ɾu/"
+    ],
+    "articulation": "alveolar tap with 'u'",
+    "description": "Represents the sound 'ru' as in 'rule'."
+  },
+  "レ": {
+    "letter": "レ",
+    "name": "Re",
+    "position": 42,
+    "sounds": [
+      "/ɾe/"
+    ],
+    "articulation": "alveolar tap with 'e'",
+    "description": "Represents the sound 're' as in 'red'."
+  },
+  "ロ": {
+    "letter": "ロ",
+    "name": "Ro",
+    "position": 43,
+    "sounds": [
+      "/ɾo/"
+    ],
+    "articulation": "alveolar tap with 'o'",
+    "description": "Represents the sound 'ro' as in 'rope'."
+  },
+  "ワ": {
+    "letter": "ワ",
+    "name": "Wa",
+    "position": 44,
+    "sounds": [
+      "/wa/"
+    ],
+    "articulation": "voiced bilabial glide with 'a'",
+    "description": "Represents the sound 'wa' as in 'was'."
+  },
+  "ヲ": {
+    "letter": "ヲ",
+    "name": "Wo",
+    "position": 45,
+    "sounds": [
+      "/o/"
+    ],
+    "articulation": "used as a grammatical particle, pronounced as 'o'",
+    "description": "Represents the sound 'o', used primarily as a particle."
+  },
+  "ン": {
+    "letter": "ン",
+    "name": "N",
+    "position": 46,
+    "sounds": [
+      "/n/",
+      "/ŋ/",
+      "/ɴ/"
+    ],
+    "articulation": "syllabic nasal",
+    "description": "Represents the nasal sound, varies depending on position."
+  },
+  "ガ": {
+    "letter": "ガ",
+    "name": "Ga",
+    "position": 47,
+    "sounds": [
+      "/ɡa/"
+    ],
+    "articulation": "voiced velar stop with 'a'",
+    "description": "Represents the sound 'ga' as in 'guard'."
+  },
+  "ギ": {
+    "letter": "ギ",
+    "name": "Gi",
+    "position": 48,
+    "sounds": [
+      "/ɡi/"
+    ],
+    "articulation": "voiced velar stop with 'i'",
+    "description": "Represents the sound 'gi' as in 'geek'."
+  },
+  "グ": {
+    "letter": "グ",
+    "name": "Gu",
+    "position": 49,
+    "sounds": [
+      "/ɡu/"
+    ],
+    "articulation": "voiced velar stop with 'u'",
+    "description": "Represents the sound 'gu' as in 'good'."
+  },
+  "ゲ": {
+    "letter": "ゲ",
+    "name": "Ge",
+    "position": 50,
+    "sounds": [
+      "/ɡe/"
+    ],
+    "articulation": "voiced velar stop with 'e'",
+    "description": "Represents the sound 'ge' as in 'get'."
+  },
+  "ゴ": {
+    "letter": "ゴ",
+    "name": "Go",
+    "position": 51,
+    "sounds": [
+      "/ɡo/"
+    ],
+    "articulation": "voiced velar stop with 'o'",
+    "description": "Represents the sound 'go' as in 'gone'."
+  },
+  "ザ": {
+    "letter": "ザ",
+    "name": "Za",
+    "position": 52,
+    "sounds": [
+      "/za/"
+    ],
+    "articulation": "voiced alveolar fricative with 'a'",
+    "description": "Represents the sound 'za' as in 'zany'."
+  },
+  "ジ": {
+    "letter": "ジ",
+    "name": "Ji",
+    "position": 53,
+    "sounds": [
+      "/dʑi/"
+    ],
+    "articulation": "voiced alveolo-palatal affricate with 'i'",
+    "description": "Represents the sound 'ji' as in 'jeep'."
+  },
+  "ズ": {
+    "letter": "ズ",
+    "name": "Zu",
+    "position": 54,
+    "sounds": [
+      "/zu/"
+    ],
+    "articulation": "voiced alveolar fricative with 'u'",
+    "description": "Represents the sound 'zu' as in 'zoo'."
+  },
+  "ゼ": {
+    "letter": "ゼ",
+    "name": "Ze",
+    "position": 55,
+    "sounds": [
+      "/ze/"
+    ],
+    "articulation": "voiced alveolar fricative with 'e'",
+    "description": "Represents the sound 'ze' as in 'zest'."
+  },
+  "ゾ": {
+    "letter": "ゾ",
+    "name": "Zo",
+    "position": 56,
+    "sounds": [
+      "/zo/"
+    ],
+    "articulation": "voiced alveolar fricative with 'o'",
+    "description": "Represents the sound 'zo' as in 'zone'."
+  },
+  "ダ": {
+    "letter": "ダ",
+    "name": "Da",
+    "position": 57,
+    "sounds": [
+      "/da/"
+    ],
+    "articulation": "voiced alveolar stop with 'a'",
+    "description": "Represents the sound 'da' as in 'dark'."
+  },
+  "ヂ": {
+    "letter": "ヂ",
+    "name": "Di",
+    "position": 58,
+    "sounds": [
+      "/dʑi/"
+    ],
+    "articulation": "voiced alveolo-palatal affricate with 'i'",
+    "description": "Represents the sound 'di' as in 'diligent'."
+  },
+  "ヅ": {
+    "letter": "ヅ",
+    "name": "Du",
+    "position": 59,
+    "sounds": [
+      "/dzu/"
+    ],
+    "articulation": "voiced alveolar affricate with 'u'",
+    "description": "Represents the sound 'du' as in 'dune'."
+  },
+  "デ": {
+    "letter": "デ",
+    "name": "De",
+    "position": 60,
+    "sounds": [
+      "/de/"
+    ],
+    "articulation": "voiced alveolar stop with 'e'",
+    "description": "Represents the sound 'de' as in 'den'."
+  },
+  "ド": {
+    "letter": "ド",
+    "name": "Do",
+    "position": 61,
+    "sounds": [
+      "/do/"
+    ],
+    "articulation": "voiced alveolar stop with 'o'",
+    "description": "Represents the sound 'do' as in 'dog'."
+  },
+  "バ": {
+    "letter": "バ",
+    "name": "Ba",
+    "position": 62,
+    "sounds": [
+      "/ba/"
+    ],
+    "articulation": "voiced bilabial stop with 'a'",
+    "description": "Represents the sound 'ba' as in 'bat'."
+  },
+  "ビ": {
+    "letter": "ビ",
+    "name": "Bi",
+    "position": 63,
+    "sounds": [
+      "/bi/"
+    ],
+    "articulation": "voiced bilabial stop with 'i'",
+    "description": "Represents the sound 'bi' as in 'bee'."
+  },
+  "ブ": {
+    "letter": "ブ",
+    "name": "Bu",
+    "position": 64,
+    "sounds": [
+      "/bu/"
+    ],
+    "articulation": "voiced bilabial stop with 'u'",
+    "description": "Represents the sound 'bu' as in 'boot'."
+  },
+  "ベ": {
+    "letter": "ベ",
+    "name": "Be",
+    "position": 65,
+    "sounds": [
+      "/be/"
+    ],
+    "articulation": "voiced bilabial stop with 'e'",
+    "description": "Represents the sound 'be' as in 'bet'."
+  },
+  "ボ": {
+    "letter": "ボ",
+    "name": "Bo",
+    "position": 66,
+    "sounds": [
+      "/bo/"
+    ],
+    "articulation": "voiced bilabial stop with 'o'",
+    "description": "Represents the sound 'bo' as in 'bone'."
+  },
+  "パ": {
+    "letter": "パ",
+    "name": "Pa",
+    "position": 67,
+    "sounds": [
+      "/pa/"
+    ],
+    "articulation": "voiceless bilabial stop with 'a'",
+    "description": "Represents the sound 'pa' as in 'palm'."
+  },
+  "ピ": {
+    "letter": "ピ",
+    "name": "Pi",
+    "position": 68,
+    "sounds": [
+      "/pi/"
+    ],
+    "articulation": "voiceless bilabial stop with 'i'",
+    "description": "Represents the sound 'pi' as in 'pea'."
+  },
+  "プ": {
+    "letter": "プ",
+    "name": "Pu",
+    "position": 69,
+    "sounds": [
+      "/pu/"
+    ],
+    "articulation": "voiceless bilabial stop with 'u'",
+    "description": "Represents the sound 'pu' as in 'pool'."
+  },
+  "ペ": {
+    "letter": "ペ",
+    "name": "Pe",
+    "position": 70,
+    "sounds": [
+      "/pe/"
+    ],
+    "articulation": "voiceless bilabial stop with 'e'",
+    "description": "Represents the sound 'pe' as in 'pet'."
+  },
+  "ポ": {
+    "letter": "ポ",
+    "name": "Po",
+    "position": 71,
+    "sounds": [
+      "/po/"
+    ],
+    "articulation": "voiceless bilabial stop with 'o'",
+    "description": "Represents the sound 'po' as in 'pot'."
+  }
+}

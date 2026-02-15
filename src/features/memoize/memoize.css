@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap");
+
+.memo-shell {
+  font-family: "Space Grotesk", system-ui, -apple-system, sans-serif;
+  background: radial-gradient(circle at 10% 10%, rgba(120, 137, 255, 0.12), transparent 30%),
+    radial-gradient(circle at 90% 20%, rgba(255, 168, 88, 0.1), transparent 28%),
+    linear-gradient(135deg, #070c12 0%, #0c141f 40%, #0f1926 100%);
+  color: #e7eef7;
+  min-height: 100vh;
+  padding: 24px clamp(12px, 4vw, 32px) 48px;
+}
+
+.memo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.memo-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+}
+
+.memo-card h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.memo-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 11px;
+  color: #8da4c2;
+}
+
+.memo-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: #e7eef7;
+}
+
+.memo-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 12px;
+  color: #cbd8ea;
+}
+
+.memo-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.memo-item {
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.memo-pill-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.memo-flex {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.memo-btn {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(120deg, #6bdcff, #7cf2c6);
+  color: #041120;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 14px 32px rgba(107, 220, 255, 0.4);
+}
+
+.memo-btn.secondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: #e7eef7;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: none;
+}
+
+.memo-hero {
+  margin-bottom: 16px;
+}
+
+.memo-hero h1 {
+  margin: 4px 0;
+  font-size: clamp(26px, 3vw, 34px);
+}
+
+.memo-hero p {
+  color: #9db2cc;
+  margin: 0 0 8px;
+}
+
+.memo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.memo-table td,
+.memo-table th {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 8px;
+  font-size: 13px;
+  color: #d7e5f8;
+}
+
+.memo-table th {
+  background: rgba(255, 255, 255, 0.04);
+  text-align: left;
+}
+
+@media (max-width: 920px) {
+  .memo-grid {
+    grid-template-columns: 1fr;
+  }
+}

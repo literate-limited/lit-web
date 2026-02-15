@@ -1,0 +1,423 @@
+{
+  "あ": {
+    "character": "あ",
+    "name": "A",
+    "position": 1,
+    "sounds": [
+      "/a/"
+    ],
+    "description": "A basic vowel sound, pronounced like 'ah' in 'father'."
+  },
+  "で": {
+  "character": "で",
+  "name": "De",
+  "position": 47,
+  "sounds": ["/de/"],
+  "description": "Voiced consonant-vowel syllable formed from 'て' with dakuten."
+},
+  "い": {
+    "character": "い",
+    "name": "I",
+    "position": 2,
+    "sounds": [
+      "/i/"
+    ],
+    "description": "A basic vowel sound, pronounced like 'ee' in 'see'."
+  },
+  "う": {
+    "character": "う",
+    "name": "U",
+    "position": 3,
+    "sounds": [
+      "/u/"
+    ],
+    "description": "A basic vowel sound, pronounced like 'oo' in 'food', with lips less rounded."
+  },
+  "え": {
+    "character": "え",
+    "name": "E",
+    "position": 4,
+    "sounds": [
+      "/e/"
+    ],
+    "description": "A basic vowel sound, pronounced like 'e' in 'bet'."
+  },
+  "お": {
+    "character": "お",
+    "name": "O",
+    "position": 5,
+    "sounds": [
+      "/o/"
+    ],
+    "description": "A basic vowel sound, pronounced like 'o' in 'more', with lips less rounded."
+  },
+  "か": {
+    "character": "か",
+    "name": "Ka",
+    "position": 6,
+    "sounds": [
+      "/ka/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless velar plosive followed by 'a'."
+  },
+  "き": {
+    "character": "き",
+    "name": "Ki",
+    "position": 7,
+    "sounds": [
+      "/ki/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless velar plosive followed by 'i'."
+  },
+  "く": {
+    "character": "く",
+    "name": "Ku",
+    "position": 8,
+    "sounds": [
+      "/ku/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless velar plosive followed by 'u'."
+  },
+  "け": {
+    "character": "け",
+    "name": "Ke",
+    "position": 9,
+    "sounds": [
+      "/ke/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless velar plosive followed by 'e'."
+  },
+  "こ": {
+    "character": "こ",
+    "name": "Ko",
+    "position": 10,
+    "sounds": [
+      "/ko/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless velar plosive followed by 'o'."
+  },
+  "さ": {
+    "character": "さ",
+    "name": "Sa",
+    "position": 11,
+    "sounds": [
+      "/sa/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolar fricative followed by 'a'."
+  },
+  "し": {
+    "character": "し",
+    "name": "Shi",
+    "position": 12,
+    "sounds": [
+      "/ɕi/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolo-palatal fricative followed by 'i'."
+  },
+  "す": {
+    "character": "す",
+    "name": "Su",
+    "position": 13,
+    "sounds": [
+      "/su/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolar fricative followed by 'u'."
+  },
+  "せ": {
+    "character": "せ",
+    "name": "Se",
+    "position": 14,
+    "sounds": [
+      "/se/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolar fricative followed by 'e'."
+  },
+  "そ": {
+    "character": "そ",
+    "name": "So",
+    "position": 15,
+    "sounds": [
+      "/so/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolar fricative followed by 'o'."
+  },
+  "た": {
+    "character": "た",
+    "name": "Ta",
+    "position": 16,
+    "sounds": [
+      "/ta/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolar plosive followed by 'a'."
+  },
+  "ち": {
+    "character": "ち",
+    "name": "Chi",
+    "position": 17,
+    "sounds": [
+      "/tɕi/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolo-palatal affricate followed by 'i'."
+  },
+  "つ": {
+    "character": "つ",
+    "name": "Tsu",
+    "position": 18,
+    "sounds": [
+      "/tsu/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolar affricate followed by 'u'."
+  },
+  "て": {
+    "character": "て",
+    "name": "Te",
+    "position": 19,
+    "sounds": [
+      "/te/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolar plosive followed by 'e'."
+  },
+  "と": {
+    "character": "と",
+    "name": "To",
+    "position": 20,
+    "sounds": [
+      "/to/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless alveolar plosive followed by 'o'."
+  },
+  "な": {
+    "character": "な",
+    "name": "Na",
+    "position": 21,
+    "sounds": [
+      "/na/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced alveolar nasal followed by 'a'."
+  },
+  "に": {
+    "character": "に",
+    "name": "Ni",
+    "position": 22,
+    "sounds": [
+      "/ni/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced alveolar nasal followed by 'i'."
+  },
+  "ぬ": {
+    "character": "ぬ",
+    "name": "Nu",
+    "position": 23,
+    "sounds": [
+      "/nu/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced alveolar nasal followed by 'u'."
+  },
+  "ね": {
+    "character": "ね",
+    "name": "Ne",
+    "position": 24,
+    "sounds": [
+      "/ne/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced alveolar nasal followed by 'e'."
+  },
+  "の": {
+    "character": "の",
+    "name": "No",
+    "position": 25,
+    "sounds": [
+      "/no/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced alveolar nasal followed by 'o'."
+  },
+  "は": {
+    "character": "は",
+    "name": "Ha",
+    "position": 26,
+    "sounds": [
+      "/ha/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless glottal fricative followed by 'a'."
+  },
+  "ひ": {
+    "character": "ひ",
+    "name": "Hi",
+    "position": 27,
+    "sounds": [
+      "/çi/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless palatal fricative followed by 'i'."
+  },
+  "ふ": {
+    "character": "ふ",
+    "name": "Fu",
+    "position": 28,
+    "sounds": [
+      "/ɸu/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless bilabial fricative followed by 'u'."
+  },
+  "へ": {
+    "character": "へ",
+    "name": "He",
+    "position": 29,
+    "sounds": [
+      "/he/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless glottal fricative followed by 'e'."
+  },
+  "ほ": {
+    "character": "ほ",
+    "name": "Ho",
+    "position": 30,
+    "sounds": [
+      "/ho/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiceless glottal fricative followed by 'o'."
+  },
+  "ま": {
+    "character": "ま",
+    "name": "Ma",
+    "position": 31,
+    "sounds": [
+      "/ma/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced bilabial nasal followed by 'a'."
+  },
+  "み": {
+    "character": "み",
+    "name": "Mi",
+    "position": 32,
+    "sounds": [
+      "/mi/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced bilabial nasal followed by 'i'."
+  },
+  "む": {
+    "character": "む",
+    "name": "Mu",
+    "position": 33,
+    "sounds": [
+      "/mu/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced bilabial nasal followed by 'u'."
+  },
+  "め": {
+    "character": "め",
+    "name": "Me",
+    "position": 34,
+    "sounds": [
+      "/me/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced bilabial nasal followed by 'e'."
+  },
+  "も": {
+    "character": "も",
+    "name": "Mo",
+    "position": 35,
+    "sounds": [
+      "/mo/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced bilabial nasal followed by 'o'."
+  },
+  "や": {
+    "character": "や",
+    "name": "Ya",
+    "position": 36,
+    "sounds": [
+      "/ja/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a palatal approximant followed by 'a'."
+  },
+  "ゆ": {
+    "character": "ゆ",
+    "name": "Yu",
+    "position": 37,
+    "sounds": [
+      "/ju/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a palatal approximant followed by 'u'."
+  },
+  "よ": {
+    "character": "よ",
+    "name": "Yo",
+    "position": 38,
+    "sounds": [
+      "/jo/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a palatal approximant followed by 'o'."
+  },
+  "ら": {
+    "character": "ら",
+    "name": "Ra",
+    "position": 39,
+    "sounds": [
+      "/ɾa/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with an alveolar tap followed by 'a'."
+  },
+  "り": {
+    "character": "り",
+    "name": "Ri",
+    "position": 40,
+    "sounds": [
+      "/ɾi/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with an alveolar tap followed by 'i'."
+  },
+  "る": {
+    "character": "る",
+    "name": "Ru",
+    "position": 41,
+    "sounds": [
+      "/ɾu/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with an alveolar tap followed by 'u'."
+  },
+  "れ": {
+    "character": "れ",
+    "name": "Re",
+    "position": 42,
+    "sounds": [
+      "/ɾe/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with an alveolar tap followed by 'e'."
+  },
+  "ろ": {
+    "character": "ろ",
+    "name": "Ro",
+    "position": 43,
+    "sounds": [
+      "/ɾo/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with an alveolar tap followed by 'o'."
+  },
+  "わ": {
+    "character": "わ",
+    "name": "Wa",
+    "position": 44,
+    "sounds": [
+      "/wa/"
+    ],
+    "description": "A consonant-vowel syllable, pronounced with a voiced labio-velar approximant followed by 'a'."
+  },
+  "を": {
+    "character": "を",
+    "name": "Wo",
+    "position": 45,
+    "sounds": [
+      "/o/"
+    ],
+    "description": "Primarily used as a particle, pronounced 'o', represents the direct object marker in Japanese."
+  },
+  "ん": {
+    "character": "ん",
+    "name": "N",
+    "position": 46,
+    "sounds": [
+      "/n/"
+    ],
+    "description": "A nasal sound, pronounced as 'n', the only standalone consonant in hiragana."
+  }
+}

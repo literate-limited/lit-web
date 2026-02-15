@@ -1,0 +1,99 @@
+.invite-shell {
+  background: radial-gradient(circle at 12% 20%, rgba(245, 158, 11, 0.16), transparent 45%),
+    radial-gradient(circle at 82% 12%, rgba(56, 189, 248, 0.12), transparent 38%),
+    linear-gradient(135deg, #0b1224, #0f172a 38%, #0b1224);
+  color: #e5e7eb;
+}
+
+.invite-heading {
+  color: #fef9c3;
+  letter-spacing: -0.01em;
+}
+
+.invite-card {
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35), 0 0 30px rgba(245, 158, 11, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.invite-label {
+  color: #64748b;  /* slate-500 - works on light backgrounds */
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.invite-pill {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-weight: 700;
+  border: 2px solid rgba(120, 120, 120, 0.3);
+  background: rgba(128, 128, 128, 0.08);
+  color: #475569;  /* slate-600 - works on both light/dark */
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.invite-pill--active {
+  border-color: #f59e0b;
+  background: linear-gradient(120deg, #f59e0b, #f97316);
+  color: #0f172a;
+  box-shadow: 0 10px 24px rgba(245, 158, 11, 0.3);
+}
+
+.invite-pill:hover {
+  transform: translateY(-1px);
+  border-color: rgba(100, 100, 100, 0.4);
+  background: rgba(128, 128, 128, 0.12);
+}
+
+.invite-input {
+  background: rgba(255, 255, 255, 0.03);
+  color: #e5e7eb;
+}
+
+.invite-input:focus {
+  outline: 2px solid rgba(245, 158, 11, 0.4);
+}
+
+.invite-primary {
+  background: linear-gradient(120deg, #f59e0b, #f97316);
+  color: #0f172a;
+  box-shadow: 0 15px 30px rgba(249, 115, 22, 0.35);
+}
+
+.invite-table-head {
+  background: rgba(0, 0, 0, 0.04);
+  color: #475569;  /* slate-600 - works on light backgrounds */
+}
+
+.invite-row {
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.invite-row:nth-child(every-2n) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.invite-status {
+  padding: 4px 8px;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  width: fit-content;
+}
+
+.invite-status--ok {
+  background: rgba(34, 197, 94, 0.2);
+  color: #166534;  /* green-800 - dark green for light bg */
+}
+
+.invite-status--bad {
+  background: rgba(239, 68, 68, 0.2);
+  color: #991b1b;  /* red-800 - dark red for light bg */
+}
+
+.invite-status--pending {
+  background: rgba(59, 130, 246, 0.15);
+  color: #1e40af;  /* blue-800 - dark blue for light bg */
+}

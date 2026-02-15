@@ -1,0 +1,319 @@
+{
+  "A": {
+    "letter": "A",
+    "name": "A",
+    "position": 1,
+    "sounds": [
+      "/a/"
+    ],
+    "articulation": "open front unrounded vowel",
+    "description": "Represents the sound as in 'car'."
+  },
+  "Ă": {
+    "letter": "Ă",
+    "name": "Ă",
+    "position": 2,
+    "sounds": [
+      "/ə/"
+    ],
+    "articulation": "mid-central vowel",
+    "description": "Represents the schwa sound, similar to the 'a' in 'sofa'."
+  },
+  "Â": {
+    "letter": "Â",
+    "name": "Â",
+    "position": 3,
+    "sounds": [
+      "/ɨ/"
+    ],
+    "articulation": "close central unrounded vowel",
+    "description": "Unique to Romanian, similar to 'i' in 'roses' but more central."
+  },
+  "B": {
+    "letter": "B",
+    "name": "B",
+    "position": 4,
+    "sounds": [
+      "/b/"
+    ],
+    "articulation": "voiced bilabial stop",
+    "description": "Represents the sound as in 'bat'."
+  },
+  "C": {
+    "letter": "C",
+    "name": "C",
+    "position": 5,
+    "sounds": [
+      "/k/",
+      "/tʃ/"
+    ],
+    "articulation": "voiceless velar stop or voiceless postalveolar affricate",
+    "description": "Sounds like 'k' in 'cat' before 'a', 'o', 'u', or consonants; like 'ch' in 'chess' before 'e' or 'i'."
+  },
+  "D": {
+    "letter": "D",
+    "name": "D",
+    "position": 6,
+    "sounds": [
+      "/d/"
+    ],
+    "articulation": "voiced alveolar stop",
+    "description": "Represents the sound as in 'dog'."
+  },
+  "E": {
+    "letter": "E",
+    "name": "E",
+    "position": 7,
+    "sounds": [
+      "/e/",
+      "/je/"
+    ],
+    "articulation": "close-mid front unrounded vowel or palatal approximant followed by vowel",
+    "description": "Sounds like 'e' in 'bed'; at the beginning of words, it can sound like 'ye' in 'yes'."
+  },
+  "F": {
+    "letter": "F",
+    "name": "F",
+    "position": 8,
+    "sounds": [
+      "/f/"
+    ],
+    "articulation": "voiceless labiodental fricative",
+    "description": "Represents the sound as in 'fish'."
+  },
+  "G": {
+    "letter": "G",
+    "name": "G",
+    "position": 9,
+    "sounds": [
+      "/ɡ/",
+      "/dʒ/"
+    ],
+    "articulation": "voiced velar stop or voiced postalveolar affricate",
+    "description": "Sounds like 'g' in 'go' before 'a', 'o', 'u', or consonants; like 'j' in 'jam' before 'e' or 'i'."
+  },
+  "H": {
+    "letter": "H",
+    "name": "H",
+    "position": 10,
+    "sounds": [
+      "/h/"
+    ],
+    "articulation": "voiceless glottal fricative",
+    "description": "Represents the sound as in 'hat'."
+  },
+  "I": {
+    "letter": "I",
+    "name": "I",
+    "position": 11,
+    "sounds": [
+      "/i/",
+      "/j/"
+    ],
+    "articulation": "close front unrounded vowel or palatal approximant",
+    "description": "Sounds like 'ee' in 'see'; can also function as a semivowel 'y' in 'yes'."
+  },
+  "Î": {
+    "letter": "Î",
+    "name": "Î",
+    "position": 12,
+    "sounds": [
+      "/ɨ/"
+    ],
+    "articulation": "close central unrounded vowel",
+    "description": "Identical in sound to 'Â', used at the beginning or end of words."
+  },
+  "J": {
+    "letter": "J",
+    "name": "J",
+    "position": 13,
+    "sounds": [
+      "/ʒ/"
+    ],
+    "articulation": "voiced postalveolar fricative",
+    "description": "Represents the sound as in 'measure'."
+  },
+  "K": {
+    "letter": "K",
+    "name": "K",
+    "position": 14,
+    "sounds": [
+      "/k/"
+    ],
+    "articulation": "voiceless velar stop",
+    "description": "Used primarily in borrowed words, sounds like 'k' in 'kite'."
+  },
+  "L": {
+    "letter": "L",
+    "name": "L",
+    "position": 15,
+    "sounds": [
+      "/l/"
+    ],
+    "articulation": "voiced alveolar lateral approximant",
+    "description": "Represents the sound as in 'lamp'."
+  },
+  "M": {
+    "letter": "M",
+    "name": "M",
+    "position": 16,
+    "sounds": [
+      "/m/"
+    ],
+    "articulation": "voiced bilabial nasal",
+    "description": "Represents the sound as in 'man'."
+  },
+  "N": {
+    "letter": "N",
+    "name": "N",
+    "position": 17,
+    "sounds": [
+      "/n/"
+    ],
+    "articulation": "voiced alveolar nasal",
+    "description": "Represents the sound as in 'net'."
+  },
+  "O": {
+    "letter": "O",
+    "name": "O",
+    "position": 18,
+    "sounds": [
+      "/o/"
+    ],
+    "articulation": "close-mid back rounded vowel",
+    "description": "Represents the sound as in 'more'."
+  },
+  "P": {
+    "letter": "P",
+    "name": "P",
+    "position": 19,
+    "sounds": [
+      "/p/"
+    ],
+    "articulation": "voiceless bilabial stop",
+    "description": "Represents the sound as in 'pat'."
+  },
+  "Q": {
+    "letter": "Q",
+    "name": "Q",
+    "position": 20,
+    "sounds": [
+      "/k/"
+    ],
+    "articulation": "voiceless velar stop",
+    "description": "Used in borrowed words, represents the same sound as 'K'."
+  },
+  "R": {
+    "letter": "R",
+    "name": "R",
+    "position": 21,
+    "sounds": [
+      "/r/"
+    ],
+    "articulation": "voiced alveolar trill",
+    "description": "Represents a rolled 'r', similar to the Spanish 'r'."
+  },
+  "S": {
+    "letter": "S",
+    "name": "S",
+    "position": 22,
+    "sounds": [
+      "/s/"
+    ],
+    "articulation": "voiceless alveolar fricative",
+    "description": "Represents the sound as in 'sun'."
+  },
+  "Ș": {
+    "letter": "Ș",
+    "name": "Ș",
+    "position": 23,
+    "sounds": [
+      "/ʃ/"
+    ],
+    "articulation": "voiceless postalveolar fricative",
+    "description": "Represents the sound as in 'shoe'."
+  },
+  "T": {
+    "letter": "T",
+    "name": "T",
+    "position": 24,
+    "sounds": [
+      "/t/"
+    ],
+    "articulation": "voiceless alveolar stop",
+    "description": "Represents the sound as in 'top'."
+  },
+  "Ț": {
+    "letter": "Ț",
+    "name": "Ț",
+    "position": 25,
+    "sounds": [
+      "/t͡s/"
+    ],
+    "articulation": "voiceless alveolar affricate",
+    "description": "Represents the sound as in 'cats'."
+  },
+  "U": {
+    "letter": "U",
+    "name": "U",
+    "position": 26,
+    "sounds": [
+      "/u/"
+    ],
+    "articulation": "close back rounded vowel",
+    "description": "Represents the sound as in 'too'."
+  },
+  "V": {
+    "letter": "V",
+    "name": "V",
+    "position": 27,
+    "sounds": [
+      "/v/"
+    ],
+    "articulation": "voiced labiodental fricative",
+    "description": "Represents the sound as in 'van'."
+  },
+  "W": {
+    "letter": "W",
+    "name": "W",
+    "position": 28,
+    "sounds": [
+      "/v/",
+      "/w/"
+    ],
+    "articulation": "voiced labiodental or voiced labial-velar approximant",
+    "description": "Used in borrowed words, sounds like 'v' in 'vet' or 'w' in 'wet'."
+  },
+  "X": {
+    "letter": "X",
+    "name": "X",
+    "position": 29,
+    "sounds": [
+      "/ks/",
+      "/ɡz/"
+    ],
+    "articulation": "voiceless alveolar fricative followed by voiceless velar stop or voiced alveolar fricative followed by voiced velar stop",
+    "description": "Used in borrowed words, sounds like 'x' in 'box' or 'exam'."
+  },
+  "Y": {
+    "letter": "Y",
+    "name": "Y",
+    "position": 30,
+    "sounds": [
+      "/i/",
+      "/j/"
+    ],
+    "articulation": "close front unrounded vowel or palatal approximant",
+    "description": "Used in borrowed words, similar to 'i' or 'y'."
+  },
+  "Z": {
+    "letter": "Z",
+    "name": "Z",
+    "position": 31,
+    "sounds": [
+      "/z/"
+    ],
+    "articulation": "voiced alveolar fricative",
+    "description": "Represents the sound as in 'zoo'."
+  }
+}

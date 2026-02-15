@@ -1,0 +1,191 @@
+{
+  "א": {
+    "letter": "א",
+    "name": "Aleph",
+    "position": 1,
+    "sounds": ["∅ (glottal stop)", "/ʔ/", "/ʔa/"],
+    "articulation": "silent or glottal stop; carries the following vowel"
+  },
+  "ב": {
+    "letter": "ב",
+    "name": "Bet",
+    "position": 2,
+    "sounds": ["/b/", "/v/"],
+    "articulation": "voiced bilabial stop (with dagesh) or voiced labiodental fricative"
+  },
+  "ג": {
+    "letter": "ג",
+    "name": "Gimel",
+    "position": 3,
+    "sounds": ["/ɡ/"],
+    "articulation": "voiced velar stop"
+  },
+  "ד": {
+    "letter": "ד",
+    "name": "Dalet",
+    "position": 4,
+    "sounds": ["/d/"],
+    "articulation": "voiced alveolar stop"
+  },
+  "ה": {
+    "letter": "ה",
+    "name": "He",
+    "position": 5,
+    "sounds": ["/h/", "vowel marker"],
+    "articulation": "voiceless glottal fricative or indicates a final vowel"
+  },
+  "ו": {
+    "letter": "ו",
+    "name": "Vav",
+    "position": 6,
+    "sounds": ["/v/", "/uː/", "/o/"],
+    "articulation": "voiced labiodental fricative or vowel letter for /u/ /o/"
+  },
+  "ז": {
+    "letter": "ז",
+    "name": "Zayin",
+    "position": 7,
+    "sounds": ["/z/"],
+    "articulation": "voiced alveolar fricative"
+  },
+  "ח": {
+    "letter": "ח",
+    "name": "Chet",
+    "position": 8,
+    "sounds": ["/χ/", "/ħ/"],
+    "articulation": "voiceless uvular or pharyngeal fricative"
+  },
+  "ט": {
+    "letter": "ט",
+    "name": "Tet",
+    "position": 9,
+    "sounds": ["/t/"],
+    "articulation": "voiceless alveolar stop (emphatic/historical pharyngealization)"
+  },
+  "י": {
+    "letter": "י",
+    "name": "Yod",
+    "position": 10,
+    "sounds": ["/j/", "/iː/"],
+    "articulation": "palatal approximant or vowel letter for /i/"
+  },
+  "כ": {
+    "letter": "כ",
+    "name": "Kaf",
+    "position": 11,
+    "sounds": ["/k/", "/χ/"],
+    "articulation": "voiceless velar stop (with dagesh) or voiceless uvular fricative"
+  },
+  "ך": {
+    "letter": "ך",
+    "name": "Final Kaf",
+    "position": 11,
+    "sounds": ["/k/", "/χ/"],
+    "articulation": "final-form of Kaf (same sounds as כ)"
+  },
+  "ל": {
+    "letter": "ל",
+    "name": "Lamed",
+    "position": 12,
+    "sounds": ["/l/"],
+    "articulation": "voiced alveolar lateral approximant"
+  },
+  "מ": {
+    "letter": "מ",
+    "name": "Mem",
+    "position": 13,
+    "sounds": ["/m/"],
+    "articulation": "voiced bilabial nasal"
+  },
+  "ם": {
+    "letter": "ם",
+    "name": "Final Mem",
+    "position": 13,
+    "sounds": ["/m/"],
+    "articulation": "final-form of Mem"
+  },
+  "נ": {
+    "letter": "נ",
+    "name": "Nun",
+    "position": 14,
+    "sounds": ["/n/"],
+    "articulation": "voiced alveolar nasal"
+  },
+  "ן": {
+    "letter": "ן",
+    "name": "Final Nun",
+    "position": 14,
+    "sounds": ["/n/"],
+    "articulation": "final-form of Nun"
+  },
+  "ס": {
+    "letter": "ס",
+    "name": "Samekh",
+    "position": 15,
+    "sounds": ["/s/"],
+    "articulation": "voiceless alveolar fricative"
+  },
+  "ע": {
+    "letter": "ע",
+    "name": "Ayin",
+    "position": 16,
+    "sounds": ["/ʔ/", "/ʕ/", "vowel carrier"],
+    "articulation": "historically voiced pharyngeal fricative; silent glottal or vowel marker in Modern Hebrew"
+  },
+  "פ": {
+    "letter": "פ",
+    "name": "Pe",
+    "position": 17,
+    "sounds": ["/p/", "/f/"],
+    "articulation": "voiceless bilabial stop (with dagesh) or voiceless labiodental fricative"
+  },
+  "ף": {
+    "letter": "ף",
+    "name": "Final Pe",
+    "position": 17,
+    "sounds": ["/p/", "/f/"],
+    "articulation": "final-form of Pe"
+  },
+  "צ": {
+    "letter": "צ",
+    "name": "Tsadi",
+    "position": 18,
+    "sounds": ["/ts/"],
+    "articulation": "voiceless alveolar affricate"
+  },
+  "ץ": {
+    "letter": "ץ",
+    "name": "Final Tsadi",
+    "position": 18,
+    "sounds": ["/ts/"],
+    "articulation": "final-form of Tsadi"
+  },
+  "ק": {
+    "letter": "ק",
+    "name": "Qof",
+    "position": 19,
+    "sounds": ["/k/"],
+    "articulation": "voiceless uvular stop (realized as /k/ in Modern Hebrew)"
+  },
+  "ר": {
+    "letter": "ר",
+    "name": "Resh",
+    "position": 20,
+    "sounds": ["/ʁ/", "/r/"],
+    "articulation": "voiced uvular fricative or alveolar trill/flap (dialectal)"
+  },
+  "ש": {
+    "letter": "ש",
+    "name": "Shin / Sin",
+    "position": 21,
+    "sounds": ["/ʃ/", "/s/"],
+    "articulation": "voiceless postalveolar fricative (shin dot) or voiceless alveolar fricative (sin dot)"
+  },
+  "ת": {
+    "letter": "ת",
+    "name": "Tav",
+    "position": 22,
+    "sounds": ["/t/"],
+    "articulation": "voiceless alveolar stop"
+  }
+}

@@ -1,0 +1,275 @@
+
+{
+  "ㄱ": {
+    "letter": "ㄱ",
+    "name": "Giyeok",
+    "position": 1,
+    "sounds": ["/k/", "/g/"],
+    "articulation": "voiceless velar stop or voiced velar stop",
+    "description": "The basic sound is similar to the 'g' in 'go', but it can sound more like a 'k' at the start of words."
+  },
+  "ㄴ": {
+    "letter": "ㄴ",
+    "name": "Nieun",
+    "position": 2,
+    "sounds": ["/n/"],
+    "articulation": "voiced alveolar nasal",
+    "description": "Similar to the English 'n' in 'no'."
+  },
+  "ㄷ": {
+    "letter": "ㄷ",
+    "name": "Digeut",
+    "position": 3,
+    "sounds": ["/t/", "/d/"],
+    "articulation": "voiceless alveolar stop or voiced alveolar stop",
+    "description": "Sounds like 'd' in 'dog', but can sound like 't' in 'stop' at the start of words."
+  },
+  "ㄹ": {
+    "letter": "ㄹ",
+    "name": "Rieul",
+    "position": 4,
+    "sounds": ["/ɾ/", "/l/"],
+    "articulation": "alveolar tap or lateral approximant",
+    "description": "Flaps like the 'r' in Spanish, similar to a light 'l' in English."
+  },
+  "ㅁ": {
+    "letter": "ㅁ",
+    "name": "Mieum",
+    "position": 5,
+    "sounds": ["/m/"],
+    "articulation": "voiced bilabial nasal",
+    "description": "Similar to the English 'm' in 'mom'."
+  },
+  "ㅂ": {
+    "letter": "ㅂ",
+    "name": "Bieup",
+    "position": 6,
+    "sounds": ["/p/", "/b/"],
+    "articulation": "voiceless bilabial stop or voiced bilabial stop",
+    "description": "Sounds like 'b' in 'boy', but can sound like 'p' in 'spot' at the start of words."
+  },
+  "ㅅ": {
+    "letter": "ㅅ",
+    "name": "Siot",
+    "position": 7,
+    "sounds": ["/s/", "/ʃ/"],
+    "articulation": "voiceless alveolar fricative or voiceless postalveolar fricative",
+    "description": "Similar to 's' in 'see' but softer, sometimes like 'sh' in 'she' before 'i' and 'y'."
+  },
+  "ㅇ": {
+    "letter": "ㅇ",
+    "name": "Ieung",
+    "position": 8,
+    "sounds": ["∅", "/ŋ/"],
+    "articulation": "silent placeholder or voiced velar nasal",
+    "description": "Silent at the beginning of a syllable, like 'ng' in 'song' at the end."
+  },
+  "ㅈ": {
+    "letter": "ㅈ",
+    "name": "Jieut",
+    "position": 9,
+    "sounds": ["/tɕ/", "/dʑ/"],
+    "articulation": "voiceless alveolo-palatal affricate or voiced alveolo-palatal affricate",
+    "description": "Similar to English 'j' in 'jump', softer and sometimes more like 'ch' in 'chop'."
+  },
+  "ㅊ": {
+    "letter": "ㅊ",
+    "name": "Chieut",
+    "position": 10,
+    "sounds": ["/tɕʰ/"],
+    "articulation": "aspirated alveolo-palatal affricate",
+    "description": "Aspirated version of 'ㅈ', similar to 'ch' in 'chop'."
+  },
+  "ㅋ": {
+    "letter": "ㅋ",
+    "name": "Kieuk",
+    "position": 11,
+    "sounds": ["/kʰ/"],
+    "articulation": "aspirated velar stop",
+    "description": "Aspirated 'k', similar to 'k' in 'kite'."
+  },
+  "ㅌ": {
+    "letter": "ㅌ",
+    "name": "Tieut",
+    "position": 12,
+    "sounds": ["/tʰ/"],
+    "articulation": "aspirated alveolar stop",
+    "description": "Aspirated 't', similar to 't' in 'top'."
+  },
+  "ㅍ": {
+    "letter": "ㅍ",
+    "name": "Pieup",
+    "position": 13,
+    "sounds": ["/pʰ/"],
+    "articulation": "aspirated bilabial stop",
+    "description": "Aspirated 'p', similar to 'p' in 'pot'."
+  },
+  "ㅎ": {
+    "letter": "ㅎ",
+    "name": "Hieut",
+    "position": 14,
+    "sounds": ["/h/"],
+    "articulation": "voiceless glottal fricative",
+    "description": "Similar to 'h' in 'hat'."
+  },
+  "ㅏ": {
+    "letter": "ㅏ",
+    "name": "A",
+    "position": 15,
+    "sounds": ["/a/"],
+    "articulation": "open front unrounded vowel",
+    "description": "Similar to 'a' in 'father'."
+  },
+  "ㅑ": {
+    "letter": "ㅑ",
+    "name": "Ya",
+    "position": 16,
+    "sounds": ["/ja/"],
+    "articulation": "palatal approximant followed by open front unrounded vowel",
+    "description": "Similar to 'ya' in 'yard'."
+  },
+  "ㅓ": {
+    "letter": "ㅓ",
+    "name": "Eo",
+    "position": 17,
+    "sounds": ["/ʌ/"],
+    "articulation": "open-mid back unrounded vowel",
+    "description": "Similar to 'u' in 'cup'."
+  },
+  "ㅕ": {
+    "letter": "ㅕ",
+    "name": "Yeo",
+    "position": 18,
+    "sounds": ["/jʌ/"],
+    "articulation": "palatal approximant followed by open-mid back unrounded vowel",
+    "description": "Similar to 'yo' in 'young'."
+  },
+  "ㅗ": {
+    "letter": "ㅗ",
+    "name": "O",
+    "position": 19,
+    "sounds": ["/o/"],
+    "articulation": "close-mid back rounded vowel",
+    "description": "Similar to 'o' in 'go'."
+  },
+  "ㅛ": {
+    "letter": "ㅛ",
+    "name": "Yo",
+    "position": 20,
+    "sounds": ["/jo/"],
+    "articulation": "palatal approximant followed by close-mid back rounded vowel",
+    "description": "Similar to 'yo' in 'yoke'."
+  },
+  "ㅜ": {
+    "letter": "ㅜ",
+    "name": "U",
+    "position": 21,
+    "sounds": ["/u/"],
+    "articulation": "close back rounded vowel",
+    "description": "Similar to 'oo' in 'boot'."
+  },
+  "ㅠ": {
+    "letter": "ㅠ",
+    "name": "Yu",
+    "position": 22,
+    "sounds": ["/ju/"],
+    "articulation": "palatal approximant followed by close back rounded vowel",
+    "description": "Similar to 'you' in 'yule'."
+  },
+  "ㅡ": {
+    "letter": "ㅡ",
+    "name": "Eu",
+    "position": 23,
+    "sounds": ["/ɯ/"],
+    "articulation": "close back unrounded vowel",
+    "description": "Similar to 'u' in 'put', but further back in the mouth."
+  },
+  "ㅣ": {
+    "letter": "ㅣ",
+    "name": "I",
+    "position": 24,
+    "sounds": ["/i/"],
+    "articulation": "close front unrounded vowel",
+    "description": "Similar to 'ee' in 'see'."
+  },
+  "ㅐ": {
+    "letter": "ㅐ",
+    "name": "Ae",
+    "position": 25,
+    "sounds": ["/ɛ/"],
+    "articulation": "open-mid front unrounded vowel",
+    "description": "Similar to 'e' in 'bed'."
+  },
+  "ㅔ": {
+    "letter": "ㅔ",
+    "name": "E",
+    "position": 26,
+    "sounds": ["/e/"],
+    "articulation": "close-mid front unrounded vowel",
+    "description": "Similar to 'e' in 'red'."
+  },
+  "ㅚ": {
+    "letter": "ㅚ",
+    "name": "Oe",
+    "position": 27,
+    "sounds": ["/we/", "/ø/"],
+    "articulation": "rounded close-mid front vowel or diphthong",
+    "description": "Similar to 'we' in 'wet'."
+  },
+  "ㅟ": {
+    "letter": "ㅟ",
+    "name": "Wi",
+    "position": 28,
+    "sounds": ["/wi/"],
+    "articulation": "diphthong starting with close back rounded vowel",
+    "description": "Similar to 'wee' in 'week'."
+  },
+  "ㅢ": {
+    "letter": "ㅢ",
+    "name": "Ui",
+    "position": 29,
+    "sounds": ["/ɯi/"],
+    "articulation": "diphthong starting with close back unrounded vowel",
+    "description": "A unique sound in Korean, starting with 'ㅡ' and gliding into 'ㅣ'."
+  },
+  "ㄲ": {
+    "letter": "ㄲ",
+    "name": "Ssang Giyeok",
+    "position": 30,
+    "sounds": ["/k͈/"],
+    "articulation": "tense velar stop",
+    "description": "A tense version of 'ㄱ'."
+  },
+  "ㄸ": {
+    "letter": "ㄸ",
+    "name": "Ssang Digeut",
+    "position": 31,
+    "sounds": ["/t͈/"],
+    "articulation": "tense alveolar stop",
+    "description": "A tense version of 'ㄷ'."
+  },
+  "ㅃ": {
+    "letter": "ㅃ",
+    "name": "Ssang Bieup",
+    "position": 32,
+    "sounds": ["/p͈/"],
+    "articulation": "tense bilabial stop",
+    "description": "A tense version of 'ㅂ'."
+  },
+  "ㅆ": {
+    "letter": "ㅆ",
+    "name": "Ssang Siot",
+    "position": 33,
+    "sounds": ["/s͈/"],
+    "articulation": "tense alveolar fricative",
+    "description": "A tense version of 'ㅅ'."
+  },
+  "ㅉ": {
+    "letter": "ㅉ",
+    "name": "Ssang Jieut",
+    "position": 34,
+    "sounds": ["/tɕ͈/"],
+    "articulation": "tense alveolo-palatal affricate",
+    "description": "A tense version of 'ㅈ'."
+  }
+}

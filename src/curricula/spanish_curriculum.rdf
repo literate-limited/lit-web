@@ -1,0 +1,28 @@
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/ASN/schema/core/authorityStatus> <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/ASN/schema/core/indexingStatus> <http://purl.org/ASN/scheme/ASNIndexingStatus/No> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/ASN/schema/core/statementLabel> "Subject"@en-au .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/isPartOf> <http://rdf.australiancurriculum.edu.au/elements/2018/05/5460b64c-2581-404d-a8c6-6aa2fff88275> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/modified> "2018-06-28T02:20:07+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/rights> " &#xa9; Copyright Australian Curriculum, Assessment and Reporting Authority"@en-au .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/rightsHolder> "Australian Curriculum, Assessment and Reporting Authority"@en-au .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/subject> <http://vocabulary.curriculum.edu.au/framework/LES> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/title> "Spanish"@en-au .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ASN/schema/core/Statement> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/educationLevel> <http://vocabulary.curriculum.edu.au/schoolLevel/7> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/educationLevel> <http://vocabulary.curriculum.edu.au/schoolLevel/8> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/educationLevel> <http://vocabulary.curriculum.edu.au/schoolLevel/9> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/educationLevel> <http://vocabulary.curriculum.edu.au/schoolLevel/10> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/gem/qualifiers/hasChild> <http://rdf.australiancurriculum.edu.au/elements/2018/05/a8f2ca8d-7915-40e2-8cec-37b88ff65a0a> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/gem/qualifiers/hasChild> <http://rdf.australiancurriculum.edu.au/elements/2018/05/1a8ccf26-0c26-4e1b-9bc8-9ae54416c81b> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/gem/qualifiers/isChildOf> <http://rdf.australiancurriculum.edu.au/elements/2018/05/5460b64c-2581-404d-a8c6-6aa2fff88275> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://vocabulary.curriculum.edu.au/nominalYearLevel> "Years 7 and 8"@en-au .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://vocabulary.curriculum.edu.au/nominalYearLevel> "Years 9 and 10"@en-au .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> <http://purl.org/dc/terms/abstract> <http://australiancurriculum.edu.au/f-10-curriculum/languages/spanish/> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf.rdf> <http://purl.org/dc/terms/modified> "2019-03-03T11:23:31+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf.rdf> <http://purl.org/dc/terms/rightsHolder> "Australian Curriculum, Assessment and Reporting Authority"@en-au .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf.rdf> <http://creativecommons.org/ns#attributionName> "Australian Curriculum, Assessment and Reporting Authority"@en-au .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf.rdf> <http://creativecommons.org/ns#attributionURL> <http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf.rdf> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-nc-sa/3.0/au/> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf.rdf> <http://purl.org/ASN/schema/core/exportVersion> <http://purl.org/ASN/export/3.1.0> .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf.rdf> <http://purl.org/dc/elements/1.1/creator> "Australian Curriculum, Assessment and Reporting Authority"@en-au .
+<http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf.rdf> <http://xmlns.com/foaf/0.1/primaryTopic> <http://rdf.australiancurriculum.edu.au/elements/2018/05/21023c47-1598-4f2d-b08f-779d374092cf> .

@@ -1,0 +1,73 @@
+const Translations = {
+  en: {
+    language: "Language",
+    loginAria: "Login",
+    alreadyHave: "Already have an account?",
+    login: "Login!",
+    welcome: "Welcome to Lit🔥!",
+    join: "Click to join Lit🔥!",
+    msg1: "A revolution in learning begins with listening.",
+    msg2: "Not memorisation.",
+    msg3: "Not repetition.",
+    msg4: "Understanding.",
+    msg5: "Sound before symbol.",
+  },
+
+  es: {
+    language: "Idioma",
+    loginAria: "Iniciar sesión",
+    alreadyHave: "¿Ya tienes una cuenta?",
+    login: "¡Inicia sesión!",
+    welcome: "¡Bienvenido a Lit🔥!",
+    join: "¡Haz clic para unirte a Lit🔥!",
+    msg1: "Una revolución en el aprendizaje comienza escuchando.",
+    msg2: "No memorización.",
+    msg3: "No repetición.",
+    msg4: "Comprensión.",
+    msg5: "Sonido antes que símbolo.",
+  },
+
+  fr: {
+    language: "Langue",
+    loginAria: "Connexion",
+    alreadyHave: "Vous avez déjà un compte ?",
+    login: "Connexion !",
+    welcome: "Bienvenue sur Lit🔥 !",
+    join: "Cliquez pour rejoindre Lit🔥 !",
+    msg1: "Une révolution de l’apprentissage commence par l’écoute.",
+    msg2: "Pas de mémorisation.",
+    msg3: "Pas de répétition.",
+    msg4: "Comprendre.",
+    msg5: "Le son avant le symbole.",
+  },
+
+  de: {
+    language: "Sprache",
+    loginAria: "Anmelden",
+    alreadyHave: "Du hast schon ein Konto?",
+    login: "Anmelden!",
+    welcome: "Willkommen bei Lit🔥!",
+    join: "Klicke, um Lit🔥 beizutreten!",
+    msg1: "Eine Lernrevolution beginnt mit dem Zuhören.",
+    msg2: "Keine Auswendiglernerei.",
+    msg3: "Keine bloße Wiederholung.",
+    msg4: "Verstehen.",
+    msg5: "Klang vor Symbol.",
+  },
+
+  hi: {
+    language: "भाषा",
+    loginAria: "लॉगिन",
+    alreadyHave: "पहले से खाता है?",
+    login: "लॉगिन!",
+    welcome: "Lit🔥 में आपका स्वागत है!",
+    join: "Lit🔥 जॉइन करने के लिए क्लिक करें!",
+    msg1: "सीखने की क्रांति सुनने से शुरू होती है।",
+    msg2: "रटना नहीं।",
+    msg3: "दोहराना नहीं।",
+    msg4: "समझना।",
+    msg5: "चिन्ह से पहले ध्वनि।",
+  },
+};
+
+export default Translations;

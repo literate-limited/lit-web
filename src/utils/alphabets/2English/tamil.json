@@ -1,0 +1,306 @@
+{
+  "அ": {
+    "letter": "அ",
+    "name": "A",
+    "position": 1,
+    "sounds": [
+      "/a/"
+    ],
+    "articulation": "open front unrounded vowel",
+    "description": "The basic vowel sound, used independently or combined with consonants."
+  },
+  "ஆ": {
+    "letter": "ஆ",
+    "name": "Aa",
+    "position": 2,
+    "sounds": [
+      "/aː/"
+    ],
+    "articulation": "long open front unrounded vowel",
+    "description": "A longer version of the 'அ' vowel, indicating a prolonged sound."
+  },
+  "இ": {
+    "letter": "இ",
+    "name": "I",
+    "position": 3,
+    "sounds": [
+      "/i/"
+    ],
+    "articulation": "close front unrounded vowel",
+    "description": "A short vowel sound similar to the 'i' in 'bit'."
+  },
+  "ஈ": {
+    "letter": "ஈ",
+    "name": "Ii",
+    "position": 4,
+    "sounds": [
+      "/iː/"
+    ],
+    "articulation": "long close front unrounded vowel",
+    "description": "A longer version of the 'இ' vowel, indicating a prolonged sound."
+  },
+  "உ": {
+    "letter": "உ",
+    "name": "U",
+    "position": 5,
+    "sounds": [
+      "/u/"
+    ],
+    "articulation": "close back rounded vowel",
+    "description": "A short vowel sound similar to the 'u' in 'put'."
+  },
+  "ஊ": {
+    "letter": "ஊ",
+    "name": "Uu",
+    "position": 6,
+    "sounds": [
+      "/uː/"
+    ],
+    "articulation": "long close back rounded vowel",
+    "description": "A longer version of the 'உ' vowel, indicating a prolonged sound."
+  },
+  "எ": {
+    "letter": "எ",
+    "name": "E",
+    "position": 7,
+    "sounds": [
+      "/e/"
+    ],
+    "articulation": "close-mid front unrounded vowel",
+    "description": "A short vowel sound similar to the 'e' in 'bet'."
+  },
+  "ஏ": {
+    "letter": "ஏ",
+    "name": "Ee",
+    "position": 8,
+    "sounds": [
+      "/eː/"
+    ],
+    "articulation": "long close-mid front unrounded vowel",
+    "description": "A longer version of the 'எ' vowel, indicating a prolonged sound."
+  },
+  "ஐ": {
+    "letter": "ஐ",
+    "name": "Ai",
+    "position": 9,
+    "sounds": [
+      "/ai/"
+    ],
+    "articulation": "diphthong",
+    "description": "A combination of 'அ' and 'இ' sounds, forming a diphthong."
+  },
+  "ஒ": {
+    "letter": "ஒ",
+    "name": "O",
+    "position": 10,
+    "sounds": [
+      "/o/"
+    ],
+    "articulation": "close-mid back rounded vowel",
+    "description": "A short vowel sound similar to the 'o' in 'cot'."
+  },
+  "ஓ": {
+    "letter": "ஓ",
+    "name": "Oo",
+    "position": 11,
+    "sounds": [
+      "/oː/"
+    ],
+    "articulation": "long close-mid back rounded vowel",
+    "description": "A longer version of the 'ஒ' vowel, indicating a prolonged sound."
+  },
+  "ஔ": {
+    "letter": "ஔ",
+    "name": "Au",
+    "position": 12,
+    "sounds": [
+      "/au/"
+    ],
+    "articulation": "diphthong",
+    "description": "A combination of 'அ' and 'உ' sounds, forming a diphthong."
+  },
+  "க": {
+    "letter": "க",
+    "name": "Ka",
+    "position": 13,
+    "sounds": [
+      "/k/",
+      "/g/"
+    ],
+    "articulation": "voiceless velar plosive or voiced velar plosive",
+    "description": "Represents the 'k' sound, sometimes realized as 'g' in certain contexts."
+  },
+  "ங": {
+    "letter": "ங",
+    "name": "Nga",
+    "position": 14,
+    "sounds": [
+      "/ŋ/"
+    ],
+    "articulation": "voiced velar nasal",
+    "description": "Represents the 'ng' sound, as in 'sing'."
+  },
+  "ச": {
+    "letter": "ச",
+    "name": "Ca",
+    "position": 15,
+    "sounds": [
+      "/t͡ʃ/",
+      "/s/"
+    ],
+    "articulation": "voiceless postalveolar affricate or voiceless alveolar fricative",
+    "description": "Represents the 'ch' sound, sometimes realized as 's' in certain contexts."
+  },
+  "ஞ": {
+    "letter": "ஞ",
+    "name": "Nya",
+    "position": 16,
+    "sounds": [
+      "/ɲ/"
+    ],
+    "articulation": "voiced palatal nasal",
+    "description": "Represents the 'ny' sound, as in 'canyon'."
+  },
+  "ட": {
+    "letter": "ட",
+    "name": "Ta",
+    "position": 17,
+    "sounds": [
+      "/ʈ/"
+    ],
+    "articulation": "voiceless retroflex plosive",
+    "description": "Represents a retroflex 't' sound."
+  },
+  "ண": {
+    "letter": "ண",
+    "name": "Na",
+    "position": 18,
+    "sounds": [
+      "/ɳ/"
+    ],
+    "articulation": "voiced retroflex nasal",
+    "description": "Represents a retroflex 'n' sound."
+  },
+  "த": {
+    "letter": "த",
+    "name": "Tha",
+    "position": 19,
+    "sounds": [
+      "/t̪/"
+    ],
+    "articulation": "voiceless dental plosive",
+    "description": "Represents the dental 't' sound."
+  },
+  "ந": {
+    "letter": "ந",
+    "name": "Na",
+    "position": 20,
+    "sounds": [
+      "/n̪/"
+    ],
+    "articulation": "voiced dental nasal",
+    "description": "Represents the dental 'n' sound."
+  },
+  "ப": {
+    "letter": "ப",
+    "name": "Pa",
+    "position": 21,
+    "sounds": [
+      "/p/",
+      "/b/"
+    ],
+    "articulation": "voiceless bilabial plosive or voiced bilabial plosive",
+    "description": "Represents the 'p' sound, sometimes realized as 'b' in certain contexts."
+  },
+  "ம": {
+    "letter": "ம",
+    "name": "Ma",
+    "position": 22,
+    "sounds": [
+      "/m/"
+    ],
+    "articulation": "voiced bilabial nasal",
+    "description": "Represents the 'm' sound."
+  },
+  "ய": {
+    "letter": "ய",
+    "name": "Ya",
+    "position": 23,
+    "sounds": [
+      "/j/"
+    ],
+    "articulation": "voiced palatal approximant",
+    "description": "Represents the 'y' sound, as in 'yes'."
+  },
+  "ர": {
+    "letter": "ர",
+    "name": "Ra",
+    "position": 24,
+    "sounds": [
+      "/ɾ/"
+    ],
+    "articulation": "voiced alveolar tap",
+    "description": "Represents a rolled 'r' sound."
+  },
+  "ல": {
+    "letter": "ல",
+    "name": "La",
+    "position": 25,
+    "sounds": [
+      "/l/"
+    ],
+    "articulation": "voiced alveolar lateral approximant",
+    "description": "Represents the 'l' sound."
+  },
+  "வ": {
+    "letter": "வ",
+    "name": "Va",
+    "position": 26,
+    "sounds": [
+      "/ʋ/"
+    ],
+    "articulation": "voiced labiodental approximant",
+    "description": "Represents the 'v' sound, as in 'vine'."
+  },
+  "ழ": {
+    "letter": "ழ",
+    "name": "Zha",
+    "position": 27,
+    "sounds": [
+      "/ɻ/"
+    ],
+    "articulation": "voiced retroflex approximant",
+    "description": "Represents a unique retroflex 'l' sound in Tamil."
+  },
+  "ள": {
+    "letter": "ள",
+    "name": "La",
+    "position": 28,
+    "sounds": [
+      "/ɭ/"
+    ],
+    "articulation": "voiced retroflex lateral approximant",
+    "description": "Represents a retroflex 'l' sound."
+  },
+  "ற": {
+    "letter": "ற",
+    "name": "Rra",
+    "position": 29,
+    "sounds": [
+      "/r/",
+      "/ɾ/"
+    ],
+    "articulation": "voiced alveolar trill or tap",
+    "description": "Represents a stronger 'r' sound."
+  },
+  "ன": {
+    "letter": "ன",
+    "name": "Na",
+    "position": 30,
+    "sounds": [
+      "/n/"
+    ],
+    "articulation": "voiced alveolar nasal",
+    "description": "Represents the 'n' sound, usually in non-initial positions."
+  }
+}

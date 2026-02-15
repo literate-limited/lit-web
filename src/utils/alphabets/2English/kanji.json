@@ -1,0 +1,172 @@
+
+{
+  "安": {
+    "character": "安",
+    "translation": "peace",
+    "pronunciation": ["an"],
+    "description": "This kanji means peace, safe, or cheap. It is often associated with concepts of security and tranquility."
+  },
+  "愛": {
+    "character": "愛",
+    "translation": "love",
+    "pronunciation": ["ai"],
+    "description": "Represents love or affection. It is commonly used to express deep personal bonds and connections."
+  },
+  "明": {
+    "character": "明",
+    "translation": "bright",
+    "pronunciation": ["mei", "aka"],
+    "description": "Symbolizes brightness or light. It can also imply clarity or intelligence."
+  },
+  "青": {
+    "character": "青",
+    "translation": "blue",
+    "pronunciation": ["ao"],
+    "description": "Refers to the color blue, but can also suggest youth or freshness."
+  },
+  "雨": {
+    "character": "雨",
+    "translation": "rain",
+    "pronunciation": ["ame"],
+    "description": "This kanji depicts rain and is used in words related to weather and precipitation."
+  },
+  "赤": {
+    "character": "赤",
+    "translation": "red",
+    "pronunciation": ["aka"],
+    "description": "Represents the color red and is often associated with passion and energy."
+  },
+  "悪": {
+    "character": "悪",
+    "translation": "bad",
+    "pronunciation": ["aku"],
+    "description": "Conveys negativity or evil, used to describe something unpleasant or negative."
+  },
+  "海": {
+    "character": "海",
+    "translation": "sea",
+    "pronunciation": ["umi"],
+    "description": "Denotes the sea or ocean, often used in contexts related to water bodies."
+  },
+  "火": {
+    "character": "火",
+    "translation": "fire",
+    "pronunciation": ["hi"],
+    "description": "Symbolizes fire or flame, and is used in contexts related to heat or burning."
+  },
+  "花": {
+    "character": "花",
+    "translation": "flower",
+    "pronunciation": ["hana"],
+    "description": "Represents flowers and is frequently associated with beauty and nature."
+  },
+  "金": {
+    "character": "金",
+    "translation": "gold",
+    "pronunciation": ["kin", "kane"],
+    "description": "Means gold or money, and is often associated with wealth and prosperity."
+  },
+  "空": {
+    "character": "空",
+    "translation": "sky",
+    "pronunciation": ["sora", "kuu"],
+    "description": "Refers to the sky or emptiness, can also imply space or void."
+  },
+  "黒": {
+    "character": "黒",
+    "translation": "black",
+    "pronunciation": ["kuro"],
+    "description": "Denotes the color black, often used to symbolize mystery or elegance."
+  },
+  "心": {
+    "character": "心",
+    "translation": "heart",
+    "pronunciation": ["kokoro"],
+    "description": "Represents the heart or mind, often associated with emotions and thoughts."
+  },
+  "水": {
+    "character": "水",
+    "translation": "water",
+    "pronunciation": ["mizu"],
+    "description": "Symbolizes water or liquid, frequently used in contexts related to hydration or purity."
+  },
+  "星": {
+    "character": "星",
+    "translation": "star",
+    "pronunciation": ["hoshi"],
+    "description": "Represents stars or celestial bodies, often associated with dreams or aspirations."
+  },
+  "山": {
+    "character": "山",
+    "translation": "mountain",
+    "pronunciation": ["yama"],
+    "description": "Denotes mountains or hills, and is used in contexts related to nature and geography."
+  },
+  "雪": {
+    "character": "雪",
+    "translation": "snow",
+    "pronunciation": ["yuki"],
+    "description": "Refers to snow or winter, often associated with cold and purity."
+  },
+  "月": {
+    "character": "月",
+    "translation": "moon",
+    "pronunciation": ["tsuki"],
+    "description": "Symbolizes the moon, often linked with night and time."
+  },
+  "風": {
+    "character": "風",
+    "translation": "wind",
+    "pronunciation": ["kaze"],
+    "description": "Represents wind or breeze, used in contexts related to weather and movement."
+  },
+  "犬": {
+    "character": "犬",
+    "translation": "dog",
+    "pronunciation": ["inu"],
+    "description": "Refers to dogs and is often associated with loyalty and companionship."
+  },
+  "鳥": {
+    "character": "鳥",
+    "translation": "bird",
+    "pronunciation": ["tori"],
+    "description": "Symbolizes birds, often used in contexts related to freedom and sky."
+  },
+  "魚": {
+    "character": "魚",
+    "translation": "fish",
+    "pronunciation": ["sakana"],
+    "description": "Represents fish and is frequently used in contexts related to the sea or cuisine."
+  },
+  "森": {
+    "character": "森",
+    "translation": "forest",
+    "pronunciation": ["mori"],
+    "description": "Denotes forests or woods, often associated with nature and wildlife."
+  },
+  "今": {
+    "character": "今",
+    "translation": "now",
+    "pronunciation": ["ima"],
+    "description": "Represents the present moment or current time."
+  },
+  "日": {
+    "character": "日",
+    "translation": "day, sun",
+    "pronunciation": ["hi", "nichi"],
+    "description": "Means day or sun; used in many date-related words."
+  },
+  "天": {
+    "character": "天",
+    "translation": "sky, heaven",
+    "pronunciation": ["ten", "ame"],
+    "description": "Denotes the sky or heavens."
+  },
+  "気": {
+    "character": "気",
+    "translation": "spirit, air",
+    "pronunciation": ["ki"],
+    "description": "Used to express energy, air, or mood."
+  }
+}
+

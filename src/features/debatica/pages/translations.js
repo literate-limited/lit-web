@@ -1,0 +1,73 @@
+const Translations = {
+  en: {
+    language: "Language",
+    loginAria: "Login",
+    alreadyHave: "Already have an account?",
+    login: "Login!",
+    welcome: "Welcome to Debatica!",
+    join: "Click to join Debatica!",
+    msg1: "Master the art of argumentation.",
+    msg2: "Think critically.",
+    msg3: "Speak persuasively.",
+    msg4: "Listen thoughtfully.",
+    msg5: "Debate shapes minds.",
+  },
+
+  es: {
+    language: "Idioma",
+    loginAria: "Iniciar sesión",
+    alreadyHave: "¿Ya tienes una cuenta?",
+    login: "¡Inicia sesión!",
+    welcome: "¡Bienvenido a Debatica!",
+    join: "¡Haz clic para unirte a Debatica!",
+    msg1: "Domina el arte de la argumentación.",
+    msg2: "Piensa críticamente.",
+    msg3: "Habla persuasivamente.",
+    msg4: "Escucha reflexivamente.",
+    msg5: "El debate forma mentes.",
+  },
+
+  fr: {
+    language: "Langue",
+    loginAria: "Connexion",
+    alreadyHave: "Vous avez déjà un compte ?",
+    login: "Connexion !",
+    welcome: "Bienvenue sur Debatica !",
+    join: "Cliquez pour rejoindre Debatica !",
+    msg1: "Maîtrisez l'art de l'argumentation.",
+    msg2: "Pensez de façon critique.",
+    msg3: "Parlez avec persuasion.",
+    msg4: "Écoutez avec réflexion.",
+    msg5: "Le débat façonne les esprits.",
+  },
+
+  de: {
+    language: "Sprache",
+    loginAria: "Anmelden",
+    alreadyHave: "Du hast schon ein Konto?",
+    login: "Anmelden!",
+    welcome: "Willkommen bei Debatica!",
+    join: "Klicke, um Debatica beizutreten!",
+    msg1: "Beherrsche die Kunst der Argumentation.",
+    msg2: "Denke kritisch.",
+    msg3: "Sprich überzeugend.",
+    msg4: "Höre aufmerksam zu.",
+    msg5: "Debatten prägen Geister.",
+  },
+
+  hi: {
+    language: "भाषा",
+    loginAria: "लॉगिन",
+    alreadyHave: "पहले से खाता है?",
+    login: "लॉगिन!",
+    welcome: "Debatica में आपका स्वागत है!",
+    join: "Debatica जॉइन करने के लिए क्लिक करें!",
+    msg1: "तर्क की कला में महारत हासिल करें।",
+    msg2: "समालोचनात्मक सोच।",
+    msg3: "प्रेरक बोलें।",
+    msg4: "विचारशील सुनो।",
+    msg5: "बहस दिमागों को आकार देती है।",
+  },
+};
+
+export default Translations;

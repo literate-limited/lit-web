@@ -1,0 +1,266 @@
+{
+  "А": {
+    "letter": "А",
+    "name": "A",
+    "position": 1,
+    "sounds": ["/a/"],
+    "articulation": "open front unrounded vowel",
+    "description": "Represents the sound /a/ as in 'car'."
+  },
+  "Б": {
+    "letter": "Б",
+    "name": "Be",
+    "position": 2,
+    "sounds": ["/b/"],
+    "articulation": "voiced bilabial stop",
+    "description": "Similar to 'b' in 'bat'."
+  },
+  "В": {
+    "letter": "В",
+    "name": "Ve",
+    "position": 3,
+    "sounds": ["/v/"],
+    "articulation": "voiced labiodental fricative",
+    "description": "Similar to 'v' in 'vet'."
+  },
+  "Г": {
+    "letter": "Г",
+    "name": "Ge",
+    "position": 4,
+    "sounds": ["/ɡ/"],
+    "articulation": "voiced velar stop",
+    "description": "Similar to 'g' in 'go'."
+  },
+  "Д": {
+    "letter": "Д",
+    "name": "De",
+    "position": 5,
+    "sounds": ["/d/"],
+    "articulation": "voiced dental stop",
+    "description": "Similar to 'd' in 'dog'."
+  },
+  "Е": {
+    "letter": "Е",
+    "name": "Ye",
+    "position": 6,
+    "sounds": ["/je/", "/e/"],
+    "articulation": "palatal approximant followed by mid-front vowel",
+    "description": "Sounds like 'ye' in 'yes' or 'e' in 'pen'."
+  },
+  "Ё": {
+    "letter": "Ё",
+    "name": "Yo",
+    "position": 7,
+    "sounds": ["/jo/"],
+    "articulation": "palatal approximant followed by back vowel",
+    "description": "Sounds like 'yo' in 'yolk'."
+  },
+  "Ж": {
+    "letter": "Ж",
+    "name": "Zhe",
+    "position": 8,
+    "sounds": ["/ʐ/"],
+    "articulation": "voiced retroflex fricative",
+    "description": "Similar to 's' in 'measure'."
+  },
+  "З": {
+    "letter": "З",
+    "name": "Ze",
+    "position": 9,
+    "sounds": ["/z/"],
+    "articulation": "voiced alveolar fricative",
+    "description": "Similar to 'z' in 'zoo'."
+  },
+  "И": {
+    "letter": "И",
+    "name": "I",
+    "position": 10,
+    "sounds": ["/i/"],
+    "articulation": "close front unrounded vowel",
+    "description": "Similar to 'ee' in 'see'."
+  },
+  "Й": {
+    "letter": "Й",
+    "name": "Short I",
+    "position": 11,
+    "sounds": ["/j/"],
+    "articulation": "palatal approximant",
+    "description": "Similar to 'y' in 'yes'."
+  },
+  "К": {
+    "letter": "К",
+    "name": "Ka",
+    "position": 12,
+    "sounds": ["/k/"],
+    "articulation": "voiceless velar stop",
+    "description": "Similar to 'k' in 'kite'."
+  },
+  "Л": {
+    "letter": "Л",
+    "name": "El",
+    "position": 13,
+    "sounds": ["/l/"],
+    "articulation": "voiced alveolar lateral approximant",
+    "description": "Similar to 'l' in 'lamp'."
+  },
+  "М": {
+    "letter": "М",
+    "name": "Em",
+    "position": 14,
+    "sounds": ["/m/"],
+    "articulation": "voiced bilabial nasal",
+    "description": "Similar to 'm' in 'mat'."
+  },
+  "Н": {
+    "letter": "Н",
+    "name": "En",
+    "position": 15,
+    "sounds": ["/n/"],
+    "articulation": "voiced alveolar nasal",
+    "description": "Similar to 'n' in 'net'."
+  },
+  "О": {
+    "letter": "О",
+    "name": "O",
+    "position": 16,
+    "sounds": ["/o/"],
+    "articulation": "close-mid back rounded vowel",
+    "description": "Represents the sound 'o' as in 'more'."
+  },
+  "П": {
+    "letter": "П",
+    "name": "Pe",
+    "position": 17,
+    "sounds": ["/p/"],
+    "articulation": "voiceless bilabial stop",
+    "description": "Similar to 'p' in 'pat'."
+  },
+  "Р": {
+    "letter": "Р",
+    "name": "Er",
+    "position": 18,
+    "sounds": ["/r/"],
+    "articulation": "voiced alveolar trill",
+    "description": "A rolled 'r' as in Spanish 'perro'."
+  },
+  "С": {
+    "letter": "С",
+    "name": "Es",
+    "position": 19,
+    "sounds": ["/s/"],
+    "articulation": "voiceless alveolar fricative",
+    "description": "Similar to 's' in 'see'."
+  },
+  "Т": {
+    "letter": "Т",
+    "name": "Te",
+    "position": 20,
+    "sounds": ["/t/"],
+    "articulation": "voiceless dental stop",
+    "description": "Similar to 't' in 'top'."
+  },
+  "У": {
+    "letter": "У",
+    "name": "U",
+    "position": 21,
+    "sounds": ["/u/"],
+    "articulation": "close back rounded vowel",
+    "description": "Similar to 'oo' in 'boot'."
+  },
+  "Ф": {
+    "letter": "Ф",
+    "name": "Ef",
+    "position": 22,
+    "sounds": ["/f/"],
+    "articulation": "voiceless labiodental fricative",
+    "description": "Similar to 'f' in 'fun'."
+  },
+  "Х": {
+    "letter": "Х",
+    "name": "Kha",
+    "position": 23,
+    "sounds": ["/x/"],
+    "articulation": "voiceless velar fricative",
+    "description": "Similar to 'ch' in Scottish 'loch'."
+  },
+  "Ц": {
+    "letter": "Ц",
+    "name": "Tse",
+    "position": 24,
+    "sounds": ["/ts/"],
+    "articulation": "voiceless alveolar affricate",
+    "description": "Similar to 'ts' in 'cats'."
+  },
+  "Ч": {
+    "letter": "Ч",
+    "name": "Che",
+    "position": 25,
+    "sounds": ["/tʃ/"],
+    "articulation": "voiceless postalveolar affricate",
+    "description": "Similar to 'ch' in 'chess'."
+  },
+  "Ш": {
+    "letter": "Ш",
+    "name": "Sha",
+    "position": 26,
+    "sounds": ["/ʂ/"],
+    "articulation": "voiceless retroflex fricative",
+    "description": "Similar to 'sh' in 'shoe'."
+  },
+  "Щ": {
+    "letter": "Щ",
+    "name": "Shcha",
+    "position": 27,
+    "sounds": ["/ɕː/"],
+    "articulation": "voiceless alveolo-palatal fricative",
+    "description": "Similar to 'shch' in 'fresh cheese'."
+  },
+  "Ъ": {
+    "letter": "Ъ",
+    "name": "Hard Sign",
+    "position": 28,
+    "sounds": [],
+    "articulation": "no sound; indicates hard pronunciation of preceding consonant",
+    "description": "Used to separate a prefix from a root or indicate hardness."
+  },
+  "Ы": {
+    "letter": "Ы",
+    "name": "Y",
+    "position": 29,
+    "sounds": ["/ɨ/"],
+    "articulation": "close central unrounded vowel",
+    "description": "Similar to 'i' in 'bit', but pronounced further back in the mouth."
+  },
+  "Ь": {
+    "letter": "Ь",
+    "name": "Soft Sign",
+    "position": 30,
+    "sounds": [],
+    "articulation": "no sound; indicates soft pronunciation of preceding consonant",
+    "description": "Used to soften the preceding consonant."
+  },
+  "Э": {
+    "letter": "Э",
+    "name": "E",
+    "position": 31,
+    "sounds": ["/ɛ/"],
+    "articulation": "open-mid front unrounded vowel",
+    "description": "Similar to 'e' in 'bed'."
+  },
+  "Ю": {
+    "letter": "Ю",
+    "name": "Yu",
+    "position": 32,
+    "sounds": ["/ju/"],
+    "articulation": "palatal approximant followed by close back rounded vowel",
+    "description": "Similar to 'yu' in 'yule'."
+  },
+  "Я": {
+    "letter": "Я",
+    "name": "Ya",
+    "position": 33,
+    "sounds": ["/ja/"],
+    "articulation": "palatal approximant followed by open front unrounded vowel",
+    "description": "Similar to 'ya' in 'yard'."
+  }
+}

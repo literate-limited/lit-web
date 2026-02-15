@@ -1,0 +1,197 @@
+{
+  "Α": {
+    "letter": "Α",
+    "name": "Alpha",
+    "position": 1,
+    "sounds": [
+      "/a/"
+    ]
+  },
+  "Β": {
+    "letter": "Β",
+    "name": "Beta",
+    "position": 2,
+    "sounds": [
+      "/b/"
+    ]
+  },
+  "Γ": {
+    "letter": "Γ",
+    "name": "Gamma",
+    "position": 3,
+    "sounds": [
+      "/ɡ/",
+      "/ɣ/"
+    ]
+  },
+  "Δ": {
+    "letter": "Δ",
+    "name": "Delta",
+    "position": 4,
+    "sounds": [
+      "/d/"
+    ]
+  },
+  "Ε": {
+    "letter": "Ε",
+    "name": "Epsilon",
+    "position": 5,
+    "sounds": [
+      "/e/"
+    ]
+  },
+  "Ζ": {
+    "letter": "Ζ",
+    "name": "Zeta",
+    "position": 6,
+    "sounds": [
+      "/z/"
+    ]
+  },
+  "Η": {
+    "letter": "Η",
+    "name": "Eta",
+    "position": 7,
+    "sounds": [
+      "/i/"
+    ]
+  },
+  "Θ": {
+    "letter": "Θ",
+    "name": "Theta",
+    "position": 8,
+    "sounds": [
+      "/θ/"
+    ]
+  },
+  "Ι": {
+    "letter": "Ι",
+    "name": "Iota",
+    "position": 9,
+    "sounds": [
+      "/i/"
+    ]
+  },
+  "Κ": {
+    "letter": "Κ",
+    "name": "Kappa",
+    "position": 10,
+    "sounds": [
+      "/k/"
+    ]
+  },
+  "Λ": {
+    "letter": "Λ",
+    "name": "Lambda",
+    "position": 11,
+    "sounds": [
+      "/l/"
+    ]
+  },
+  "Μ": {
+    "letter": "Μ",
+    "name": "Mu",
+    "position": 12,
+    "sounds": [
+      "/m/"
+    ]
+  },
+  "Ν": {
+    "letter": "Ν",
+    "name": "Nu",
+    "position": 13,
+    "sounds": [
+      "/n/"
+    ]
+  },
+  "Ξ": {
+    "letter": "Ξ",
+    "name": "Xi",
+    "position": 14,
+    "sounds": [
+      "/ks/"
+    ]
+  },
+  "Ο": {
+    "letter": "Ο",
+    "name": "Omicron",
+    "position": 15,
+    "sounds": [
+      "/o/"
+    ]
+  },
+  "Π": {
+    "letter": "Π",
+    "name": "Pi",
+    "position": 16,
+    "sounds": [
+      "/p/"
+    ]
+  },
+  "Ρ": {
+    "letter": "Ρ",
+    "name": "Rho",
+    "position": 17,
+    "sounds": [
+      "/r/"
+    ]
+  },
+  "Σ": {
+    "letter": "Σ",
+    "name": "Sigma",
+    "position": 18,
+    "sounds": [
+      "/s/"
+    ]
+  },
+  "Τ": {
+    "letter": "Τ",
+    "name": "Tau",
+    "position": 19,
+    "sounds": [
+      "/t/"
+    ]
+  },
+  "Υ": {
+    "letter": "Υ",
+    "name": "Upsilon",
+    "position": 20,
+    "sounds": [
+      "/y/",
+      "/i/"
+    ]
+  },
+  "Φ": {
+    "letter": "Φ",
+    "name": "Phi",
+    "position": 21,
+    "sounds": [
+      "/f/"
+    ]
+  },
+  "Χ": {
+    "letter": "Χ",
+    "name": "Chi",
+    "position": 22,
+    "sounds": [
+      "/x/",
+      "/ç/"
+    ]
+  },
+  "Ψ": {
+    "letter": "Ψ",
+    "name": "Psi",
+    "position": 23,
+    "sounds": [
+      "/ps/"
+    ]
+  },
+  "Ω": {
+    "letter": "Ω",
+    "name": "Omega",
+    "position": 24,
+    "sounds": [
+      "/o/"
+    ]
+  }
+}

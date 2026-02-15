@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+.mathmadness-shell {
+  font-family: "Space Grotesk", "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+}
+
+.mathmadness-mono {
+  font-family: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+.mathmadness-grid {
+  background-image: radial-gradient(circle at 20% 20%, rgba(80, 255, 200, 0.05), transparent 22%),
+    radial-gradient(circle at 80% 10%, rgba(99, 102, 241, 0.05), transparent 28%),
+    radial-gradient(circle at 10% 70%, rgba(14, 165, 233, 0.04), transparent 30%);
+}

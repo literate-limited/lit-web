@@ -1,0 +1,190 @@
+{
+  "A": {
+    "letter": "A",
+    "position": 1,
+    "sounds": [
+      "/a/"
+    ]
+  },
+  "B": {
+    "letter": "B",
+    "position": 2,
+    "sounds": [
+      "/b/"
+    ]
+  },
+  "C": {
+    "letter": "C",
+    "position": 3,
+    "sounds": [
+      "/k/",
+      "/s/"
+    ]
+  },
+  "D": {
+    "letter": "D",
+    "position": 4,
+    "sounds": [
+      "/d/"
+    ]
+  },
+  "E": {
+    "letter": "E",
+    "position": 5,
+    "sounds": [
+      "/ə/",
+      "/e/"
+    ]
+  },
+  "F": {
+    "letter": "F",
+    "position": 6,
+    "sounds": [
+      "/f/"
+    ]
+  },
+  "G": {
+    "letter": "G",
+    "position": 7,
+    "sounds": [
+      "/g/",
+      "/ʒ/"
+    ]
+  },
+  "H": {
+    "letter": "H",
+    "position": 8,
+    "sounds": [
+      ""
+    ]
+  },
+  "I": {
+    "letter": "I",
+    "position": 9,
+    "sounds": [
+      "/i/"
+    ]
+  },
+  "J": {
+    "letter": "J",
+    "position": 10,
+    "sounds": [
+      "/ʒ/"
+    ]
+  },
+  "K": {
+    "letter": "K",
+    "position": 11,
+    "sounds": [
+      "/k/"
+    ]
+  },
+  "L": {
+    "letter": "L",
+    "position": 12,
+    "sounds": [
+      "/l/"
+    ]
+  },
+  "M": {
+    "letter": "M",
+    "position": 13,
+    "sounds": [
+      "/m/"
+    ]
+  },
+  "N": {
+    "letter": "N",
+    "position": 14,
+    "sounds": [
+      "/n/"
+    ]
+  },
+  "O": {
+    "letter": "O",
+    "position": 15,
+    "sounds": [
+      "/o/"
+    ]
+  },
+  "P": {
+    "letter": "P",
+    "position": 16,
+    "sounds": [
+      "/p/"
+    ]
+  },
+  "Q": {
+    "letter": "Q",
+    "position": 17,
+    "sounds": [
+      "/k/"
+    ]
+  },
+  "R": {
+    "letter": "R",
+    "position": 18,
+    "sounds": [
+      "/ʁ/"
+    ]
+  },
+  "S": {
+    "letter": "S",
+    "position": 19,
+    "sounds": [
+      "/s/"
+    ]
+  },
+  "T": {
+    "letter": "T",
+    "position": 20,
+    "sounds": [
+      "/t/"
+    ]
+  },
+  "U": {
+    "letter": "U",
+    "position": 21,
+    "sounds": [
+      "/y/"
+    ]
+  },
+  "V": {
+    "letter": "V",
+    "position": 22,
+    "sounds": [
+      "/v/"
+    ]
+  },
+  "W": {
+    "letter": "W",
+    "position": 23,
+    "sounds": [
+      "/v/",
+      "/w/"
+    ]
+  },
+  "X": {
+    "letter": "X",
+    "position": 24,
+    "sounds": [
+      "/ks/",
+      "/gz/"
+    ]
+  },
+  "Y": {
+    "letter": "Y",
+    "position": 25,
+    "sounds": [
+      "/i/",
+      "/j/"
+    ]
+  },
+  "Z": {
+    "letter": "Z",
+    "position": 26,
+    "sounds": [
+      "/z/"
+    ]
+  }
+}

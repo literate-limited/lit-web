@@ -1,0 +1,304 @@
+{
+  "A": {
+    "letter": "A",
+    "name": "A",
+    "position": 1,
+    "sounds": [
+      "/ɑː/",
+      "/a/"
+    ],
+    "articulation": "open back unrounded vowel or open front unrounded vowel",
+    "description": "The letter A in Swedish can be pronounced as either a long or short vowel."
+  },
+  "B": {
+    "letter": "B",
+    "name": "B",
+    "position": 2,
+    "sounds": [
+      "/b/"
+    ],
+    "articulation": "voiced bilabial stop",
+    "description": "The letter B represents the same sound as in English, a voiced bilabial stop."
+  },
+  "C": {
+    "letter": "C",
+    "name": "C",
+    "position": 3,
+    "sounds": [
+      "/k/",
+      "/s/"
+    ],
+    "articulation": "voiceless velar stop or voiceless alveolar fricative",
+    "description": "C is used in loanwords and foreign names, pronounced /k/ before hard vowels and /s/ before soft vowels."
+  },
+  "D": {
+    "letter": "D",
+    "name": "D",
+    "position": 4,
+    "sounds": [
+      "/d/"
+    ],
+    "articulation": "voiced alveolar stop",
+    "description": "D is pronounced as a voiced alveolar stop, similar to English."
+  },
+  "E": {
+    "letter": "E",
+    "name": "E",
+    "position": 5,
+    "sounds": [
+      "/eː/",
+      "/ɛ/"
+    ],
+    "articulation": "close-mid front unrounded vowel or open-mid front unrounded vowel",
+    "description": "The letter E can represent a long or short vowel sound, similar to 'ay' in 'say' or 'e' in 'bet'."
+  },
+  "F": {
+    "letter": "F",
+    "name": "F",
+    "position": 6,
+    "sounds": [
+      "/f/"
+    ],
+    "articulation": "voiceless labiodental fricative",
+    "description": "F is pronounced as a voiceless labiodental fricative, similar to English."
+  },
+  "G": {
+    "letter": "G",
+    "name": "G",
+    "position": 7,
+    "sounds": [
+      "/ɡ/",
+      "/j/"
+    ],
+    "articulation": "voiced velar stop or palatal approximant",
+    "description": "G is pronounced /ɡ/ before hard vowels and /j/ before soft vowels."
+  },
+  "H": {
+    "letter": "H",
+    "name": "H",
+    "position": 8,
+    "sounds": [
+      "/h/"
+    ],
+    "articulation": "voiceless glottal fricative",
+    "description": "H is pronounced as a voiceless glottal fricative, similar to English."
+  },
+  "I": {
+    "letter": "I",
+    "name": "I",
+    "position": 9,
+    "sounds": [
+      "/iː/",
+      "/ɪ/"
+    ],
+    "articulation": "close front unrounded vowel or near-close near-front unrounded vowel",
+    "description": "The letter I can be pronounced as a long or short vowel, similar to 'ee' in 'see' or 'i' in 'sit'."
+  },
+  "J": {
+    "letter": "J",
+    "name": "J",
+    "position": 10,
+    "sounds": [
+      "/j/"
+    ],
+    "articulation": "palatal approximant",
+    "description": "J is pronounced as a palatal approximant, similar to 'y' in 'yes'."
+  },
+  "K": {
+    "letter": "K",
+    "name": "K",
+    "position": 11,
+    "sounds": [
+      "/k/",
+      "/ɕ/"
+    ],
+    "articulation": "voiceless velar stop or voiceless palato-alveolar fricative",
+    "description": "K is pronounced /k/ before hard vowels and /ɕ/ before soft vowels."
+  },
+  "L": {
+    "letter": "L",
+    "name": "L",
+    "position": 12,
+    "sounds": [
+      "/l/"
+    ],
+    "articulation": "voiced alveolar lateral approximant",
+    "description": "L is pronounced as a voiced alveolar lateral approximant, similar to English."
+  },
+  "M": {
+    "letter": "M",
+    "name": "M",
+    "position": 13,
+    "sounds": [
+      "/m/"
+    ],
+    "articulation": "voiced bilabial nasal",
+    "description": "M is pronounced as a voiced bilabial nasal, similar to English."
+  },
+  "N": {
+    "letter": "N",
+    "name": "N",
+    "position": 14,
+    "sounds": [
+      "/n/"
+    ],
+    "articulation": "voiced alveolar nasal",
+    "description": "N is pronounced as a voiced alveolar nasal, similar to English."
+  },
+  "O": {
+    "letter": "O",
+    "name": "O",
+    "position": 15,
+    "sounds": [
+      "/uː/",
+      "/ɔ/"
+    ],
+    "articulation": "close back rounded vowel or open-mid back rounded vowel",
+    "description": "The letter O can represent a long or short vowel sound, similar to 'oo' in 'food' or 'o' in 'cot'."
+  },
+  "P": {
+    "letter": "P",
+    "name": "P",
+    "position": 16,
+    "sounds": [
+      "/p/"
+    ],
+    "articulation": "voiceless bilabial stop",
+    "description": "P is pronounced as a voiceless bilabial stop, similar to English."
+  },
+  "Q": {
+    "letter": "Q",
+    "name": "Q",
+    "position": 17,
+    "sounds": [
+      "/k/"
+    ],
+    "articulation": "voiceless velar stop",
+    "description": "Q is used in some loanwords and is pronounced as /k/."
+  },
+  "R": {
+    "letter": "R",
+    "name": "R",
+    "position": 18,
+    "sounds": [
+      "/r/"
+    ],
+    "articulation": "alveolar trill",
+    "description": "R is typically pronounced as an alveolar trill."
+  },
+  "S": {
+    "letter": "S",
+    "name": "S",
+    "position": 19,
+    "sounds": [
+      "/s/"
+    ],
+    "articulation": "voiceless alveolar fricative",
+    "description": "S is pronounced as a voiceless alveolar fricative, similar to English."
+  },
+  "T": {
+    "letter": "T",
+    "name": "T",
+    "position": 20,
+    "sounds": [
+      "/t/"
+    ],
+    "articulation": "voiceless alveolar stop",
+    "description": "T is pronounced as a voiceless alveolar stop, similar to English."
+  },
+  "U": {
+    "letter": "U",
+    "name": "U",
+    "position": 21,
+    "sounds": [
+      "/ʉː/",
+      "/ɵ/"
+    ],
+    "articulation": "close central rounded vowel or close-mid front rounded vowel",
+    "description": "U can represent a long or short vowel sound, unique to Swedish, pronounced with rounded lips."
+  },
+  "V": {
+    "letter": "V",
+    "name": "V",
+    "position": 22,
+    "sounds": [
+      "/v/"
+    ],
+    "articulation": "voiced labiodental fricative",
+    "description": "V is pronounced as a voiced labiodental fricative, similar to English."
+  },
+  "W": {
+    "letter": "W",
+    "name": "W",
+    "position": 23,
+    "sounds": [
+      "/v/"
+    ],
+    "articulation": "voiced labiodental fricative",
+    "description": "W is used in loanwords and is pronounced the same as V."
+  },
+  "X": {
+    "letter": "X",
+    "name": "X",
+    "position": 24,
+    "sounds": [
+      "/ks/"
+    ],
+    "articulation": "voiceless velar stop followed by voiceless alveolar fricative",
+    "description": "X is used in loanwords and is pronounced as /ks/."
+  },
+  "Y": {
+    "letter": "Y",
+    "name": "Y",
+    "position": 25,
+    "sounds": [
+      "/yː/",
+      "/ʏ/"
+    ],
+    "articulation": "close front rounded vowel or near-close near-front rounded vowel",
+    "description": "Y can represent a long or short vowel sound, pronounced with rounded lips."
+  },
+  "Z": {
+    "letter": "Z",
+    "name": "Z",
+    "position": 26,
+    "sounds": [
+      "/s/"
+    ],
+    "articulation": "voiceless alveolar fricative",
+    "description": "Z is used in loanwords and is pronounced as /s/."
+  },
+  "Å": {
+    "letter": "Å",
+    "name": "Å",
+    "position": 27,
+    "sounds": [
+      "/oː/",
+      "/ɔ/"
+    ],
+    "articulation": "close-mid back rounded vowel or open-mid back rounded vowel",
+    "description": "Å is a unique Swedish letter representing a long or short vowel sound."
+  },
+  "Ä": {
+    "letter": "Ä",
+    "name": "Ä",
+    "position": 28,
+    "sounds": [
+      "/ɛː/",
+      "/ɛ/"
+    ],
+    "articulation": "open-mid front unrounded vowel",
+    "description": "Ä represents a long or short vowel sound, similar to 'a' in 'care'."
+  },
+  "Ö": {
+    "letter": "Ö",
+    "name": "Ö",
+    "position": 29,
+    "sounds": [
+      "/øː/",
+      "/œ/"
+    ],
+    "articulation": "close-mid front rounded vowel or open-mid front rounded vowel",
+    "description": "Ö represents a long or short vowel sound, pronounced with rounded lips."
+  }
+}
