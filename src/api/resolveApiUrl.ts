@@ -30,7 +30,7 @@ export function resolveApiUrl(): string {
 
   if (typeof window === "undefined") {
     // Server-side rendering or Node.js context
-    return "http://localhost:1212/api/v2";
+    return "http://localhost:3000/api";
   }
 
   const hostname = window.location.hostname;
@@ -38,13 +38,13 @@ export function resolveApiUrl(): string {
 
   const isLocalhost = hostname === "localhost" || hostname === "127.0.0.1";
   if (isLocalhost) {
-    const devPort = import.meta.env.VITE_API_PORT || "1212";
-    return `${protocol}//${hostname}:${devPort}/api/v2`;
+    const devPort = import.meta.env.VITE_API_PORT || "3000";
+    return `${protocol}//${hostname}:${devPort}/api`;
   }
 
   // Production: assume backend is on same origin
   const origin = window.location.origin;
-  return `${origin}/api/v2`;
+  return `${origin}/api`;
 }
 
 /**
@@ -58,13 +58,13 @@ export function resolveApiUrl(): string {
  */
 export function resolveSocketUrl(): string {
   if (typeof window === "undefined") {
-    return "http://localhost:1212";
+    return "http://localhost:3000";
   }
 
   const hostname = window.location.hostname;
   const isLocalhost = hostname === "localhost" || hostname === "127.0.0.1";
   if (isLocalhost) {
-    const devPort = import.meta.env.VITE_API_PORT || "1212";
+    const devPort = import.meta.env.VITE_API_PORT || "3000";
     return `${window.location.protocol}//${hostname}:${devPort}`;
   }
 
