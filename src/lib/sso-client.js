@@ -169,33 +169,10 @@ export class SeamlessSSO {
    * without redirecting the main page
    */
   async checkSessionStatus() {
+    // TODO: SSO endpoints (/api/sso/check, etc.) not yet implemented in lit-api
+    // Disabled to prevent 404 errors on page load
     return new Promise((resolve) => {
-      // Create hidden iframe
-      const iframe = document.createElement('iframe');
-      iframe.style.display = 'none';
-      iframe.src = `${LITSUITE_DOMAIN}/api/sso/check`;
-      
-      const timeout = setTimeout(() => {
-        document.body.removeChild(iframe);
-        resolve({ hasSession: false });
-      }, 3000);
-      
-      // Listen for message from iframe
-      const handleMessage = (event) => {
-        if (event.origin !== LITSUITE_DOMAIN) return;
-        
-        clearTimeout(timeout);
-        window.removeEventListener('message', handleMessage);
-        
-        try {
-          document.body.removeChild(iframe);
-        } catch (e) {}
-        
-        resolve(event.data);
-      };
-      
-      window.addEventListener('message', handleMessage);
-      document.body.appendChild(iframe);
+      resolve({ hasSession: false });
     });
   }
 
