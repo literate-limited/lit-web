@@ -9,13 +9,11 @@
  * 3. Use logout() to clear session
  */
 
+import { getSSOUrl } from './getApiUrl';
+
 // SSO Configuration
-// In production, VITE_SSO_URL should be something like: https://api.litsuite.app/api/sso
-// If it's not set, fall back to VITE_API_URL + /api/sso to support "single backend" deployments.
-const _envApi = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "").trim();
-const SSO_BASE_URL =
-  (import.meta.env.VITE_SSO_URL || "").trim() ||
-  (_envApi ? `${_envApi}/sso` : "http://localhost:1212/sso");
+// Uses centralized getApiUrl utility to eliminate double /api path issues
+const SSO_BASE_URL = getSSOUrl();
 const CLIENT_ID = import.meta.env.VITE_SSO_CLIENT_ID || "lit_web_client";
 // IMPORTANT: redirect_uri must match the actual callback origin.
 // A build-time env var here is risky because each brand has its own domain.

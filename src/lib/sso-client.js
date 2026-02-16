@@ -13,8 +13,9 @@
  * 6. User visits Brand B -> automatically logged in (invisible!)
  */
 
+import { getApiUrl, getSSOUrl } from '../api/getApiUrl';
+
 const LITSUITE_DOMAIN = import.meta.env.VITE_LITSUITE_DOMAIN || 'https://litsuite.app';
-const API_URL = import.meta.env.VITE_API_URL || '';
 
 /**
  * Generate PKCE parameters for OAuth
@@ -45,7 +46,8 @@ export class SeamlessSSO {
     this.brand = config.brand || 'lit';
     this.clientId = config.clientId || `${this.brand}-web`;
     this.redirectUri = config.redirectUri || `${window.location.origin}/auth/sso/callback`;
-    this.apiUrl = config.apiUrl || API_URL;
+    this.apiUrl = config.apiUrl || getApiUrl();
+    this.ssoUrl = getSSOUrl();
     
     // Check for SSO code in URL (from seamless redirect)
     this._checkForSSOCallback();

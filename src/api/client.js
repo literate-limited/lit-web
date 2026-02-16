@@ -1,6 +1,6 @@
 import axios from "axios";
 import { resolveBrand } from "../brand/resolveBrand";
-import { resolveApiUrl } from "./resolveApiUrl";
+import { getApiUrl } from "./getApiUrl";
 import {
   shouldSyncCreditsForRequest,
   triggerTtvCreditSync,
@@ -9,7 +9,7 @@ import {
 
 // Resolve brand and API URL at runtime (no build-time env vars)
 const brand = resolveBrand();
-const baseURL = resolveApiUrl();
+const baseURL = getApiUrl();
 
 const api = axios.create({
   baseURL,
