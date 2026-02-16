@@ -74,10 +74,39 @@ function generateState() {
  * @param {string} options.redirectUri - Callback URI (default: VITE_REDIRECT_URI or current origin + /auth/callback)
  */
 export async function initiateLogin({ brandId, redirectUri } = {}) {
-  // TODO: SSO endpoints not yet implemented - this function is disabled
-  // Once /api/sso/* endpoints are mounted in lit-api, re-enable this
-  console.warn("SSO login not yet available - endpoints not deployed");
-  return Promise.resolve();
+  try {
+    // Generate PKCE parameters
+    const verifier = generateCodeVerifier();
+    const challenge = await generateCodeChallenge(verifier);
+    const state = generateState();
+
+    // Store verifier and state in sessionStorage for callback
+    sessionStorage.setItem("pkce_verifier", verifier);
+    sessionStorage.setItem("pkce_state", state);
+
+    // Build authorization URL
+    const callbackUri = redirectUri || DEFAULT_REDIRECT_URI;
+    const params = new URLSearchParams({
+      client_id: CLIENT_ID,
+      redirect_uri: callbackUri,
+      response_type: "code",
+      code_challenge: challenge,
+      code_challenge_method: "S256",
+      state,
+    });
+
+    if (brandId) {
+      params.set("brand_id", brandId);
+    }
+
+    const authUrl = `${SSO_BASE_URL}/authorize?${params.toString()}`;
+
+    // Redirect to SSO
+    window.location.href = authUrl;
+  } catch (error) {
+    console.error("SSO login initiation failed:", error);
+    throw new Error("Failed to initiate login");
+  }
 }
 
 /**
