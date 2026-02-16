@@ -17,19 +17,33 @@
 export function getApiUrl(): string {
   // Build-time env var (preferred - set in Vercel)
   const buildTimeUrl = import.meta.env.VITE_API_URL;
+  
+  // DEBUG: Log env var values
+  if (typeof window !== 'undefined') {
+    console.log('[getApiUrl] VITE_API_URL:', buildTimeUrl);
+  }
+  
   if (buildTimeUrl && buildTimeUrl.trim()) {
     const clean = buildTimeUrl.replace(/\/$/, '').trim();
     // Ensure /api suffix exists
     if (clean.endsWith('/api')) {
+      if (typeof window !== 'undefined') {
+        console.log('[getApiUrl] Returning build-time URL:', clean);
+      }
       return clean;
     }
     // If missing /api suffix, append it
-    return `${clean}/api`;
+    const result = `${clean}/api`;
+    if (typeof window !== 'undefined') {
+      console.log('[getApiUrl] Returning build-time URL (with /api):', result);
+    }
+    return result;
   }
 
   // Runtime fallback
   if (typeof window === 'undefined') {
     // Server-side rendering or Node.js context
+    console.log('[getApiUrl] SSR context, using localhost');
     return 'http://localhost:3000/api';
   }
 
@@ -40,12 +54,16 @@ export function getApiUrl(): string {
   if (isLocalhost) {
     // Development: use configured port
     const devPort = import.meta.env.VITE_API_PORT || '3000';
-    return `${protocol}//${hostname}:${devPort}/api`;
+    const url = `${protocol}//${hostname}:${devPort}/api`;
+    console.log('[getApiUrl] Development localhost, returning:', url);
+    return url;
   }
 
   // Production: assume backend on same origin
   const origin = window.location.origin;
-  return `${origin}/api`;
+  const url = `${origin}/api`;
+  console.log('[getApiUrl] Production mode, origin:', origin, 'returning:', url);
+  return url;
 }
 
 /**
@@ -63,14 +81,22 @@ export function getSSOUrl(): string {
   // Build-time SSO URL (optional override for explicit control)
   const buildTimeSsoUrl = import.meta.env.VITE_SSO_URL;
   if (buildTimeSsoUrl && buildTimeSsoUrl.trim()) {
-    return buildTimeSsoUrl.replace(/\/$/, '').trim();
+    const url = buildTimeSsoUrl.replace(/\/$/, '').trim();
+    if (typeof window !== 'undefined') {
+      console.log('[getSSOUrl] Using build-time VITE_SSO_URL:', url);
+    }
+    return url;
   }
 
   // Default: use getApiUrl() + /sso
   const apiUrl = getApiUrl();
   // Remove trailing /api to avoid duplication
   const baseUrl = apiUrl.replace(/\/api$/, '');
-  return `${baseUrl}/api/sso`;
+  const ssoUrl = `${baseUrl}/api/sso`;
+  if (typeof window !== 'undefined') {
+    console.log('[getSSOUrl] Computed from getApiUrl:', apiUrl, '-> base:', baseUrl, '-> sso:', ssoUrl);
+  }
+  return ssoUrl;
 }
 
 /**
