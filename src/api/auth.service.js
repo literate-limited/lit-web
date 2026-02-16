@@ -15,7 +15,7 @@
 const _envApi = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "").trim();
 const SSO_BASE_URL =
   (import.meta.env.VITE_SSO_URL || "").trim() ||
-  (_envApi ? `${_envApi}/api/sso` : "http://localhost:1212/sso");
+  (_envApi ? `${_envApi}/sso` : "http://localhost:1212/sso");
 const CLIENT_ID = import.meta.env.VITE_SSO_CLIENT_ID || "lit_web_client";
 // IMPORTANT: redirect_uri must match the actual callback origin.
 // A build-time env var here is risky because each brand has its own domain.
