@@ -129,15 +129,17 @@ function AppContent() {
     if (sessionStorage.getItem("silent_sso_attempted") === "1") return;
     sessionStorage.setItem("silent_sso_attempted", "1");
 
-    (async () => {
-      try {
-        const redirectPath = `${window.location.pathname}${window.location.search || ""}`;
-        const redirectUri = `${window.location.origin}/auth/callback?redirect_to=${encodeURIComponent(redirectPath)}`;
-        await initiateLogin({ brandId: brand.code, redirectUri });
-      } catch (err) {
-        // Noisy failures here are counterproductive; user can still log in manually.
-      }
-    })();
+    // TODO: SSO endpoints not yet implemented in lit-api
+    // Once /api/sso/* endpoints are mounted, re-enable seamless login:
+    // (async () => {
+    //   try {
+    //     const redirectPath = `${window.location.pathname}${window.location.search || ""}`;
+    //     const redirectUri = `${window.location.origin}/auth/callback?redirect_to=${encodeURIComponent(redirectPath)}`;
+    //     await initiateLogin({ brandId: brand.code, redirectUri });
+    //   } catch (err) {
+    //     // Noisy failures here are counterproductive; user can still log in manually.
+    //   }
+    // })();
   }, [brand.code]);
 
   const handleLogin = (userData) => {
