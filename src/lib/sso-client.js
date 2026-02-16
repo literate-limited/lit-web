@@ -84,7 +84,7 @@ export class SeamlessSSO {
         return;
       }
       
-      const response = await fetch(`${this.apiUrl}/api/auth/sso/exchange`, {
+      const response = await fetch(`${this.apiUrl}/auth/sso/exchange`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -207,7 +207,7 @@ export class SeamlessSSO {
   async login(email, password) {
     try {
       // Login to brand
-      const response = await fetch(`${this.apiUrl}/api/auth/login`, {
+      const response = await fetch(`${this.apiUrl}/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
