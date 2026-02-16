@@ -1,0 +1,15 @@
+--- a/src/config/brands.js
++++ b/src/config/brands.js
+@@ -1,6 +1,9 @@
+ export function getCurrentBrand() {
++  console.log('[DEBUG] getCurrentBrand called');
++  console.log('[DEBUG] window:', typeof window);
+   if (typeof window !== 'undefined') {
+     const hostname = window.location.hostname;
++    console.log('[DEBUG] hostname:', hostname);
+     const isLocal = hostname === 'localhost' || hostname === '127.0.0.1';
+     if (!isLocal) {
+       const domainBrand = getBrandFromDomain();
++      console.log('[DEBUG] domainBrand:', domainBrand);
+       if (domainBrand) {
+         return getBrandConfig(domainBrand);

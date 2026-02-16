@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Brand Detection Test</title></head>
+<body>
+<script>
+// Simulate the brand detection logic
+const hostname = 'mathmadness.app';
+const domainMap = {
+  'mathmadness.app': 'mat',
+  'playliterate.app': 'lit'
+};
+const brand = domainMap[hostname] || 'lit';
+document.write('Hostname: ' + hostname + '<br>');
+document.write('Detected brand: ' + brand);
+</script>
+</body>
+</html>

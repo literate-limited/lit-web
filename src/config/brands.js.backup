@@ -137,7 +137,6 @@ export function getBrandFromDomain() {
   if (typeof window === 'undefined') return 'lit'; // SSR fallback
 
   const hostname = window.location.hostname;
-    console.log("[BRAND-DEBUG] hostname:", hostname);
 
   // Domain to brand mapping
   const domainMap = {
@@ -221,16 +220,13 @@ export function getBrandFromDomain() {
  * @returns {object} - Current brand configuration
  */
 export function getCurrentBrand() {
-  console.log("[BRAND-DEBUG] getCurrentBrand called, window:", typeof window);
   // 1. Runtime domain detection (works in production with any domain)
   //    Skip on localhost — there's no meaningful domain to detect
   if (typeof window !== 'undefined') {
     const hostname = window.location.hostname;
-    console.log("[BRAND-DEBUG] hostname:", hostname);
     const isLocal = hostname === 'localhost' || hostname === '127.0.0.1';
     if (!isLocal) {
       const domainBrand = getBrandFromDomain();
-      console.log("[BRAND-DEBUG] domainBrand from getBrandFromDomain:", domainBrand);
       if (domainBrand) {
         return getBrandConfig(domainBrand);
       }
